@@ -82,6 +82,18 @@ body {
     font-weight: bold;
 }
 
+a.camo { display:none; }
+
+@media ( min-width: 830px) {
+    a.camo img {
+    	position: fixed;
+    	top: 0;
+    	left: 0;
+    	border: 0;
+    	z-index:2000;
+    }
+}
+
 /* section */
 
 section {
