@@ -44,7 +44,7 @@
         $( window ).resize(function() {
             var position = $('#Home').css( 'backgroundSize' );
             var pos = position.split(/auto (\d+)px/);
-            hauteur = $(window).height();
+            hauteur = $('#Home').height();
             largeur = Math.floor(pos[1]/0.8);
         });
         
