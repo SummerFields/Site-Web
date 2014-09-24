@@ -164,6 +164,28 @@ h2 span {
 /* section Home */
 
 #Home {
+    background-image: url("../panorama/panorama2/480_4.min.jpg");
+    background-position: center center;
+    background-size: cover;
+	min-height: inherit;
+}
+@media ( min-height: 481px) {
+	#Home {
+		background-image: url("../panorama/panorama2/768_4.min.jpg");
+        background-position: center center;
+        background-size: cover;
+	}
+}
+@media ( min-height: 769px) {
+	#Home {
+		background-image: url("../panorama/panorama2/976_4.min.jpg");
+        background-position: center center;
+        background-size: cover;
+	}
+}
+
+/*
+#Home {
     background-image: url("../panorama/panorama2/480_1.min.jpg"), url("../panorama/panorama2/480_2.min.jpg"), url("../panorama/panorama2/480_3.min.jpg"), url("../panorama/panorama2/480_4.min.jpg"), url("../panorama/panorama2/480_1.min.jpg");
     background-position: 0 center, 600px center, 1200px center, 1800px center, 2400px center;
     background-repeat: no-repeat;
@@ -191,7 +213,7 @@ h2 span {
 		background-position: center center;
 		background-size: cover;
 	}
-}
+}*/
 
 #Home h2 {
 	background-image: url("../img/logo.min.png");

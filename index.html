@@ -42,10 +42,18 @@
         //panorama
         var largeur, hauteur, step = 0;
         $( window ).resize(function() {
-            var position = $('#Home').css( 'backgroundSize' );
-            var pos = position.split(/auto (\d+)px/);
-            hauteur = $('#Home').height();
-            largeur = Math.floor(pos[1]/0.8);
+            var padding = $('section').css( 'padding-top' ).split(/(\d+)px/)[1];
+            hauteur = $('#Home').height()+padding*2;
+            largeur = Math.floor(hauteur/0.8);
+            $('#Home').css( 'backgroundPosition', '0px top,'+largeur+'px top,'+(largeur*2)+'px top,'+(largeur*3)+'px 50%' );
+            $('#Home').css( 'background-size', 'auto '+hauteur+'px');
+            $('#Home').css( 'background-repeat', 'no-repeat');
+            if( hauteur < 976 )
+                $('#Home').css( 'background-image', 'url("panorama/panorama2/768_1.min.jpg"), url("panorama/panorama2/768_2.min.jpg"), url("panorama/panorama2/768_3.min.jpg"), url("panorama/panorama2/768_4.min.jpg")');
+            else if( hauteur < 768 )
+                $('#Home').css( 'background-image', 'url("panorama/panorama2/480_1.min.jpg"), url("panorama/panorama2/480_2.min.jpg"), url("panorama/panorama2/480_3.min.jpg"), url("panorama/panorama2/480_4.min.jpg")');
+            else
+                $('#Home').css( 'background-image', 'url("panorama/panorama2/976_1.min.jpg"), url("panorama/panorama2/976_2.min.jpg"), url("panorama/panorama2/976_3.min.jpg"), url("panorama/panorama2/976_4.min.jpg")');
         });
         
         $( window ).resize();
@@ -55,7 +63,17 @@
             if( hauteur < 976 ) {
                 step  = step-.5;
                 if( step < -largeur*4 ) step = 0;
-                $('#Home').css( 'backgroundPosition', step+'px 50%,'+(largeur+step)+'px 50%,'+(largeur*2+step)+'px 50%,'+(largeur*3+step)+'px 50%,'+(largeur*4+step)+'px 50%' );
+                var p1 = step;
+                var p2 = largeur+step;
+                var p3 = largeur*2+step;
+                var p4 = largeur*3+step;
+                
+                if( p1 < -largeur ) p1 = largeur*4+step;
+                if( p2 < -largeur ) p2 = largeur*5+step;
+                if( p3 < -largeur ) p3 = largeur*6+step;
+                if( p4 < -largeur ) p4 = largeur*7+step;
+                
+                $('#Home').css( 'backgroundPosition', p1+'px top,'+p2+'px top,'+p3+'px top,'+p4+'px top' );
             } else
                 $('#Home').css( 'backgroundPosition', 'inherit' );
             
@@ -149,7 +167,7 @@
 	        
 	    <div class="fixe">
 	        <h3>Minetest support</h3>
-	        <a style="background-image: url('https://raw.github.com/CuddleWoozle/SummerFields/minetest/screenshot.png')"
+	        <a style="background-image: url('https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png')"
 	            href="https://github.com/SummerFields/Minetest/releases/download/Minetest_0.4.9_1/Summerfields-Minetest-0.4.9-1.zip" class="dl">
 	            Summerfields Minetest 0.4.9-1
 	        </a>
