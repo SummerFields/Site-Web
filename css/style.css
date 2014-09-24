@@ -169,6 +169,7 @@ h2 span {
     background-repeat: no-repeat;
     background-size: auto 480px;
     text-align: center;
+    min-height: inherit;
 }
 @media ( min-height: 481px) {
 	#Home {
