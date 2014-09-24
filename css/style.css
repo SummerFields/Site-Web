@@ -146,6 +146,20 @@ h2 span {
 	}
 }
 
+/* section colonne */
+
+.col {
+    float: left;
+    width: 48%;
+}
+
+.col1 { margin-right: 2%; }
+.col1 .fixe { float: right; }
+
+.col2 { margin-left: 2%; }
+.col2 .fixe { float: left; }
+
+
 /* section Home */
 
 #Home {
