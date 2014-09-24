@@ -159,6 +159,17 @@ h2 span {
 .col2 { margin-left: 2%; }
 .col2 .fixe { float: left; }
 
+@media ( min-width: 67em) {
+    .col {
+        float: none;
+        width: auto;
+        margin: 0 !important;
+    }
+    .col .fixe {
+        float: none;
+    }
+}
+
 
 /* section Home */
 
