@@ -1,13 +1,13 @@
 [
     {
         "version" : "1.8.X",
-        "legend" : "Summerfields 1.8.X",
+        "legend" : "Download 1.8.X",
         "variant" : [
             {
-                "name" : "Summerfields",
-                "short" : "Summerfields",
+                "name" : "SummerFields",
+                "short" : "SummerFields",
                 "version" : "Béta 3",
-                "url" : "version/1.8.X/SummerFields-1.8.zip",
+                "url" : "https://github.com/SummerFields/SummerFields/releases/latest",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
@@ -21,7 +21,7 @@
     },
     {
         "version" : "1.7.X",
-        "legend" : "Summerfields 1.7.X",
+        "legend" : "Download 1.7.X",
         "variant" : [
             {
                 "name" : "Summerfields",
@@ -62,7 +62,7 @@
     },
     {
         "version" : "1.6.X",
-        "legend" : "Summerfields 1.6.X",
+        "legend" : "Download 1.6.X",
         "variant" : [
             {
                 "name" : "Feed The Beast",

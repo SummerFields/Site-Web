@@ -117,8 +117,8 @@ Zepto(function($){
                 
                 var vers = data[i];
                 var form = $('<form id="form_'+vers.version.split('.').join('-')+'"></form>');
-                var fiel = $('<fieldset><legend>'+vers.legend+'</legend></fieldset>');
-                var ul = $('<ul/>');
+                var fiel = $('<fieldset class="col col1"><h2><span>'+vers.legend+'</span></h2></fieldset>');
+                var ul = $('<ul class="fixe"/>');
                 var input = $('<input name="version" type="hidden" value="'+vers.version+'"/>');
                 var button = $('<button id="but_'+vers.version.split('.').join('-')+'" class="variant_'+i+'">Download</button>');
                 
@@ -126,14 +126,14 @@ Zepto(function($){
                     
                     var pack = vers.variant[j];
                     var id = '_'+i+'_'+j;
-                    var li = $('<li><label form="input'+id+'">'+pack.name+' '+pack.version+'</label><input id="input'+id+'" '+(j==0?'checked="checked"':' ')+'type="checkbox" name="list" value="'+j+'"/></li>');
+                    var li = $('<li class="button dl" style="background-image: url('+pack.img+')"><input id="input'+id+'" '+(j==0?'checked="checked"':' ')+'type="checkbox" name="list" value="'+j+'"/><label for="input'+id+'">'+pack.name+' '+pack.version+'</label></li>');
                     
                     ul.append(li);
                 }
                 
                 fiel.append(ul);
                 fiel.append(input);
-                fiel.append(button);
+                ul.append(button);
                 form.append(fiel);
                 $('#content').append(form);
                 

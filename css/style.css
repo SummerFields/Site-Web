@@ -99,7 +99,6 @@ a.camo { display:none; }
 
 #down {
     top: 1.5em;
-	display: none;
 }
 #Download:target #down { display: block; }
 
@@ -113,7 +112,7 @@ section {
 	background-position: 0px top;
 	box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.67) inset;
 }
-h2 {
+h2, legend {
 	-webkit-border-image: url(../img/woodback.min.png) 24 46 32 32 fill repeat stretch;
 	   -moz-border-image: url(../img/woodback.min.png) 24 46 32 32 fill repeat stretch;
 	     -o-border-image: url(../img/woodback.min.png) 24 46 32 32 fill repeat stretch;
@@ -364,6 +363,77 @@ h2 span {
     display: block;
     text-align: left;
     text-decoration: none;
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {
+    position: relative;
+    cursor: pointer;
+    width: 321px;
+    display: block;
+}
+
+/* Aspect des checkboxes */
+/* :before sert à créer la case à cocher */
+[type="checkbox"]:not(:checked) + label::before, [type="checkbox"]:checked + label::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 64px;
+    height: 64px;
+    border: 1px solid #AAA;
+    background: none repeat scroll 0% 0% rgba(248, 248, 248, 0.6);
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) inset;
+    right: -83px;
+}
+ 
+/* Aspect général de la coche */
+[type="checkbox"]:not(:checked) + label::after, [type="checkbox"]:checked + label::after {
+    content: "✔";
+    position: absolute;
+    top: -51px;
+    font-size: 88px;
+    color: #342610;
+    transition: all 0.2s ease 0s;
+    right: -104px;
+}
+/* Aspect si "pas cochée" */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+/* Aspect si "cochée" */
+[type="checkbox"]:checked + label:after {
+  opacity: 1; /* coche opaque */
+  transform: scale(1); /* mise à l'échelle 1:1 */
+}
+
+/* aspect désactivée */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+/* styles de la coche (si cochée/désactivée) */
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+/* on style aussi le label quand désactivé */
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+ 
+/* aspect au focus de l'élément */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
 }
 
 /* section image */
