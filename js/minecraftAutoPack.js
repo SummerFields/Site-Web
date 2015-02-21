@@ -72,9 +72,9 @@ var MinecraftAutoPack = Queue.extend({
         for( var i = 0 ; i < this.length ; i++ ) {
             var files = this.list[i].zip.files;
             for( var key in files ) {
-                var name = files[key].name.split('/');
-                name.shift();
-                zip.file(name.join('/'), files[key]._data);
+                var name = files[key].name;//.split('/');
+                //name.shift();
+                zip.file(name/*.join('/')*/, files[key]._data);
             }
         }
         
