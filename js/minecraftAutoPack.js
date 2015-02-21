@@ -107,7 +107,7 @@ var MinecraftAutoPack = Queue.extend({
 Zepto(function($){
     
     $.ajax({
-        type: 'POST',
+        type: 'GET',
         url: 'ref.json',
         dataType: 'txt',
         success: function(data){
