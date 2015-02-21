@@ -131,9 +131,10 @@ Zepto(function($){
                     ul.append(li);
                 }
                 
-                fiel.append(ul);
-                fiel.append(input);
+                ul.append(input);
                 ul.append(button);
+                fiel.append(ul);
+                fiel.append('<br class="clear"/>');
                 form.append(fiel);
                 $('#content').append(form);
                 

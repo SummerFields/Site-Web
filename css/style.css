@@ -112,7 +112,7 @@ section {
 	background-position: 0px top;
 	box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.67) inset;
 }
-h2, legend {
+h2, fieldset button {
 	-webkit-border-image: url(../img/woodback.min.png) 24 46 32 32 fill repeat stretch;
 	   -moz-border-image: url(../img/woodback.min.png) 24 46 32 32 fill repeat stretch;
 	     -o-border-image: url(../img/woodback.min.png) 24 46 32 32 fill repeat stretch;
@@ -127,13 +127,21 @@ h2, legend {
     height: 92px;
     margin: 2em auto;
 }
-h2 span {
+h2 span, fieldset button {
     color: rgba(255, 241, 217, 0.59);
     font-family: Minecraft;
     font-size: 2em;
     line-height: 0.6em;
     text-shadow: 0 0 0.2em #1B0F01, 0 0 0.2em #1C1002, 0 0 0.2em #1B0F02;
 	text-transform: uppercase;
+}
+fieldset button {
+    height: 51px;
+    font-size: 20px;
+    line-height: 0;
+    background: transparent;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 .fixe {
@@ -153,7 +161,7 @@ h2 span {
 	}
 }
 
-/* section colonne */
+/* section colonne 
 
 @media ( min-width: 67em) {
     .col {
@@ -166,7 +174,7 @@ h2 span {
 
     .col2 { margin-left: 2%; }
     .col2 .fixe { float: left; }
-}
+}*/
 
 /* section Home */
 
