@@ -1,0 +1,89 @@
+[
+    {
+        "version" : "1.8.X",
+        "legend" : "Summerfields 1.8.X",
+        "variant" : [
+            {
+                "name" : "Summerfields",
+                "short" : "Summerfields",
+                "version" : "Béta 3",
+                "url" : "https://github.com/SummerFields/SummerFields/releases/download/mc_1.8-b3/SummerFields-1.8.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
+            },
+            {
+                "name" : "McPatcher",
+                "short" : "McP",
+                "version" : "Béta 3",
+                "url" : "https://github.com/SummerFields/SummerFields/releases/download/mc_1.8-b3/SummerFields_mcpatcher_1.8.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/mp-pack.png"
+            }
+        ]
+    },
+    {
+        "version" : "1.7.X",
+        "legend" : "Summerfields 1.7.X",
+        "variant" : [
+            {
+                "name" : "Summerfields",
+                "short" : "Summerfields",
+                "version" : "",
+                "url" : "https://github.com/SummerFields/SummerFields/releases/download/mc_1.7.10-2/SummerFields_1.7.10.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png"
+            },
+            {
+                "name" : "McPatcher",
+                "short" : "McP",
+                "version" : "",
+                "url" : "https://github.com/SummerFields/SummerFields/releases/download/mc_1.7.10-2/SummerFields_mcpatcher_1.7.10.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/mp-pack.png"
+            },
+            {
+                "name" : "Twilight Forest",
+                "short" : "TF",
+                "version" : "",
+                "url" : "https://github.com/SummerFields/Mod-Twilight-Forest/releases/download/mc_1.7.2/Mod_Twilight_Forest_SummerFields_1.7.2.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-Twilight-Forest/master/pack.png"
+            },
+            {
+                "name" : "TerraFirmaCraft",
+                "short" : "TFC",
+                "version" : "",
+                "url" : "https://github.com/SummerFields/Mod-TerraFirmaCraft/releases/download/mc_1.7.10-7/Mod_TerraFirmaCraft_SummerFields_1.7.10-7.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png"
+            }
+        ]
+    },
+    {
+        "version" : "1.6.X",
+        "legend" : "Summerfields 1.6.X",
+        "variant" : [
+            {
+                "name" : "Summerfields",
+                "short" : "Summerfields",
+                "version" : "",
+                "url" : "http://www.mediafire.com/download/c6v6gw3wj4h59b2/SummerFields_FTB_1-6_07_24_14.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png"
+            },
+            {
+                "name" : "TerraFirmaCraft",
+                "short" : "TFC",
+                "version" : "",
+                "url" : "https://github.com/SummerFields/Mod-TerraFirmaCraft/releases/download/mc_1.6.4-4/Mod_TerraFirmaCraft_SummerFields_1.6.4.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png"
+            }
+        ]
+    },
+    {
+        "version" : "Minetest",
+        "legend" : "Minetest",
+        "variant" : [
+            {
+                "name" : "Summerfields",
+                "short" : "Summerfields",
+                "version" : "",
+                "url" : "https://github.com/SummerFields/Minetest/releases/download/Minetest_0.4.11/Summerfields-Minetest-0.4.11.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png"
+            }
+        ]
+    }
+]
