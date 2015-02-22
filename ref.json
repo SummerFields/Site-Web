@@ -5,6 +5,7 @@
         "variant" : [
             {
                 "name" : "SummerFields",
+                "percent" : 95,
                 "short" : "SummerFields",
                 "version" : "Béta 3",
                 "url" : "version/1.8.X/SummerFields-1.8.zip",
@@ -32,6 +33,7 @@
         "variant" : [
             {
                 "name" : "Summerfields",
+                "percent" : 100,
                 "short" : "Summerfields",
                 "url" : "version/1.7.X/SummerFields_1.7.10.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png"
@@ -44,6 +46,7 @@
             },
             {
                 "name" : "TerraFirmaCraft",
+                "percent" : 82,
                 "short" : "TFC",
                 "version" : "v7",
                 "url" : "version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-7.zip",
@@ -66,6 +69,7 @@
             },
             {
                 "name" : "BiblioCraft",
+                "percent" : 20,
                 "short" : "BBC",
                 "url" : "version/1.7.X/BiblioCraft.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -73,6 +77,7 @@
             },
             {
                 "name" : "Mystcraft",
+                "percent" : 7,
                 "short" : "MyC",
                 "url" : "version/1.7.X/mystcraft.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -80,6 +85,7 @@
             },
             {
                 "name" : "Natura",
+                "percent" : 6,
                 "short" : "N",
                 "url" : "version/1.7.X/natura.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -87,6 +93,7 @@
             },
             {
                 "name" : "Tinkers' Construct",
+                "percent" : 7,
                 "short" : "TK",
                 "url" : "version/1.7.X/TConstruct.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -123,6 +130,7 @@
             },
             {
                 "name" : "BiblioCraft",
+                "percent" : 20,
                 "short" : "BBC",
                 "url" : "version/1.6.X/bibliocraft.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -221,6 +229,7 @@
             },
             {
                 "name" : "Mystcraft",
+                "percent" : 7,
                 "short" : "MyC",
                 "url" : "version/1.6.X/mystcraft.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -228,6 +237,7 @@
             },
             {
                 "name" : "Natura",
+                "percent" : 6,
                 "short" : "N",
                 "url" : "version/1.6.X/natura.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -270,6 +280,7 @@
             },
             {
                 "name" : "Tinkers' Construct",
+                "percent" : 7,
                 "short" : "TK",
                 "url" : "version/1.6.X/tinker.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
@@ -283,6 +294,7 @@
         "variant" : [
             {
                 "name" : "Minetest",
+                "percent" : 99,
                 "short" : "Minetest",
                 "url" : "version/minetest/minetest_game_0.4.11.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -290,6 +302,7 @@
             },
             {
                 "name" : "3d Armor",
+                "percent" : 95,
                 "short" : "3dA",
                 "url" : "version/minetest/3d_armor.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -297,6 +310,7 @@
             },
             {
                 "name" : "Connected Chests",
+                "percent" : 100,
                 "short" : "CC",
                 "url" : "version/minetest/connected_chests.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -304,6 +318,7 @@
             },
             {
                 "name" : "Creatures",
+                "percent" : 95,
                 "short" : "C",
                 "url" : "version/minetest/creatures.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -311,12 +326,14 @@
             },
             {
                 "name" : "Diamond",
+                "percent" : 100,
                 "short" : "D",
                 "url" : "version/minetest/diamond.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png"
             },
             {
                 "name" : "Fake fire",
+                "percent" : 100,
                 "short" : "FF",
                 "url" : "version/minetest/fake_fire.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -324,6 +341,7 @@
             },
             {
                 "name" : "Homedecor",
+                "percent" : 0.01,
                 "short" : "HD",
                 "url" : "version/minetest/homedecor.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -331,6 +349,7 @@
             },
             {
                 "name" : "Mapgen",
+                "percent" : 100,
                 "short" : "MG",
                 "url" : "version/minetest/mg.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -338,6 +357,7 @@
             },
             {
                 "name" : "Moreores",
+                "percent" : 100,
                 "short" : "MO",
                 "url" : "version/minetest/moreores.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -345,6 +365,7 @@
             },
             {
                 "name" : "Nether",
+                "percent" : 100,
                 "short" : "Ntr",
                 "url" : "version/minetest/nether.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -352,6 +373,7 @@
             },
             {
                 "name" : "Quartz",
+                "percent" : 100,
                 "short" : "Qrz",
                 "url" : "version/minetest/quartz.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
@@ -359,6 +381,7 @@
             },
             {
                 "name" : "XRay",
+                "percent" : 100,
                 "short" : "XR",
                 "url" : "version/minetest/xray_stone.png.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png"
