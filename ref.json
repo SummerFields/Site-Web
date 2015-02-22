@@ -7,7 +7,7 @@
                 "name" : "SummerFields",
                 "short" : "SummerFields",
                 "version" : "Béta 3",
-                "url" : "https://github.com/SummerFields/SummerFields/releases/latest",
+                "url" : "version/1.8.X/SummerFields-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
@@ -15,6 +15,13 @@
                 "short" : "McP",
                 "version" : "Béta 3",
                 "url" : "version/1.8.X/SummerFields_mcpatcher_1.8.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/mp-pack.png"
+            },
+            {
+                "name" : "Ce pack ne marche",
+                "short" : "McP",
+                "version" : "pas",
+                "url" : "version/1.8.X/SummerFields_mcpatcher_1.8. zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/mp-pack.png"
             }
         ]
@@ -54,7 +61,7 @@
             {
                 "name" : "TerraFirmaCraft",
                 "short" : "TFC",
-                "version" : "",
+                "version" : "v7",
                 "url" : "version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-7.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png"
             }
