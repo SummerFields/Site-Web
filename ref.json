@@ -33,37 +33,36 @@
             {
                 "name" : "Summerfields",
                 "short" : "Summerfields",
-                "version" : "",
                 "url" : "version/1.7.X/SummerFields_1.7.10.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png"
             },
             {
                 "name" : "McPatcher",
                 "short" : "McP",
-                "version" : "",
                 "url" : "version/1.7.X/SummerFields_mcpatcher_1.7.10.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/mp-pack.png"
             },
             {
                 "name" : "Twilight Forest",
                 "short" : "TF",
-                "version" : "",
                 "url" : "version/1.7.X/Mod_Twilight_Forest_SummerFields_1.7.2.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-Twilight-Forest/master/pack.png"
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-Twilight-Forest/master/pack.png",
+                "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276258-the-twilight-forest-v2-3-3-snow-queen-troll"
             },
             {
                 "name" : "Improving Minecraft",
                 "short" : "IM",
-                "version" : "",
                 "url" : "version/1.7.X/Mod-Improving-Minecraft_SummerFields_1.7.10.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png"
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png",
+                "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294646-improving-minecraft-v1-6"
             },
             {
                 "name" : "TerraFirmaCraft",
                 "short" : "TFC",
                 "version" : "v7",
                 "url" : "version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-7.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png"
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png",
+                "link" : "http://terrafirmacraft.com/index.html"
             }
         ]
     },
@@ -74,23 +73,177 @@
             {
                 "name" : "Summerfields",
                 "short" : "Summerfields",
-                "version" : "",
                 "url" : "version/1.6.X/SummerField_1.6.4.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png"
-            },
-            {
-                "name" : "Feed The Beast",
-                "short" : "FTB",
-                "version" : "",
-                "url" : "version/1.6.X/FTB_1-6_07_24_14.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png"
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png",
+                "link" : ""
             },
             {
                 "name" : "TerraFirmaCraft",
                 "short" : "TFC",
-                "version" : "",
                 "url" : "version/1.6.X/TerraFirmaCraft_1.6.4.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png"
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png",
+                "link" : "http://terrafirmacraft.com/index.html"
+            },
+            {
+                "name" : "Applied_Energistics",
+                "short" : "AE",
+                "url" : "version/1.6.X/Applied_Energistics.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/Applied_Energistics"
+            },
+            {
+                "name" : "BiblioCraft",
+                "short" : "BBC",
+                "url" : "version/1.6.X/bibliocraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://www.bibliocraftmod.com/"
+            },
+            {
+                "name" : "Biomes O' Plenty",
+                "short" : "BOP",
+                "url" : "version/1.6.X/biomesoplenty.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://biomesoplenty.wikia.com/wiki/Biomes_O%27_Plenty_Wiki"
+            },
+            {
+                "name" : "BuildCraft",
+                "short" : "BC",
+                "url" : "version/1.6.X/buildcraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://www.mod-buildcraft.com/"
+            },
+            {
+                "name" : "DartCraft",
+                "short" : "DC",
+                "url" : "version/1.6.X/dartcraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/DartCraft"
+            },
+            {
+                "name" : "Extra Utilities",
+                "short" : "EU",
+                "url" : "version/1.6.X/extrautils.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/Extra_Utilities"
+            },
+            {
+                "name" : "Factorization",
+                "short" : "FZ",
+                "url" : "version/1.6.X/factorization.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://feed-the-beast.wikia.com/wiki/Factorization"
+            },
+            {
+                "name" : "Forestry",
+                "short" : "FO",
+                "url" : "version/1.6.X/forestry.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://forestry.sengir.net/"
+            },
+            {
+                "name" : "GeoStrata",
+                "short" : "GS",
+                "url" : "version/1.6.X/geostrata.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/GeoStrata"
+            },
+            {
+                "name" : "Industrial Craft",
+                "short" : "IDC",
+                "url" : "version/1.6.X/ic2.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://wiki.industrial-craft.net/"
+            },
+            {
+                "name" : "Iron chests",
+                "short" : "IC",
+                "url" : "version/1.6.X/ironchest.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/Iron_Chest"
+            },
+            {
+                "name" : "Magical Crops",
+                "short" : "MC",
+                "url" : "version/1.6.X/magicalcrops.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/Magical_Crops"
+            },
+            {
+                "name" : "Mekanism",
+                "short" : "M",
+                "url" : "version/1.6.X/mekanism.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://wiki.aidancbrady.com/"
+            },
+            {
+                "name" : "Modular Force Field System",
+                "short" : "MFFS",
+                "url" : "version/1.6.X/mffs.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288023-1-6-4-modular-force-field-system-force-fields"
+            },
+            {
+                "name" : "MineFactory Reloaded",
+                "short" : "MFR",
+                "url" : "version/1.6.X/minefactoryreloaded.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/MineFactory_Reloaded"
+            },
+            {
+                "name" : "Mystcraft",
+                "short" : "MyC",
+                "url" : "version/1.6.X/mystcraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280070-mystcraft-0-11-0"
+            },
+            {
+                "name" : "Natura",
+                "short" : "N",
+                "url" : "version/1.6.X/natura.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/Natura"
+            },
+            {
+                "name" : "Nether Ores",
+                "short" : "NO",
+                "url" : "version/1.6.X/netherores.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://teamcofh.com/nether-ores/"
+            },
+            {
+                "name" : "Project Red",
+                "short" : "PR",
+                "url" : "version/1.6.X/projectred.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://projectredwiki.com/"
+            },
+            {
+                "name" : "Railcraft",
+                "short" : "RC",
+                "url" : "version/1.6.X/railcraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://www.railcraft.info/"
+            },
+            {
+                "name" : "Thaumcraft",
+                "short" : "TC",
+                "url" : "version/1.6.X/thaumcraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://thaumcraft-4.wikia.com/"
+            },
+            {
+                "name" : "Thermal Expansion",
+                "short" : "TE",
+                "url" : "version/1.6.X/thermalexpansion.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/Thermal_Expansion_3"
+            },
+            {
+                "name" : "Tinkers' Construct",
+                "short" : "TK",
+                "url" : "version/1.6.X/tinker.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://tinkers-construct.wikia.com/"
             }
         ]
     },
@@ -99,10 +252,85 @@
         "legend" : "Minetest",
         "variant" : [
             {
-                "name" : "Summerfields",
-                "short" : "Summerfields",
-                "version" : "",
-                "url" : "version/minetest/Summerfields-Minetest-0.4.11.zip",
+                "name" : "Minetest",
+                "short" : "Minetest",
+                "url" : "version/minetest/minetest_game_0.4.11.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "http://www.minetest.net/"
+            },
+            {
+                "name" : "3d Armor",
+                "short" : "3dA",
+                "url" : "version/minetest/3d_armor.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=11&t=4654"
+            },
+            {
+                "name" : "Connected Chests",
+                "short" : "CC",
+                "url" : "version/minetest/connected_chests.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=9&t=10264#p156571"
+            },
+            {
+                "name" : "Creatures",
+                "short" : "C",
+                "url" : "version/minetest/creatures.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=11&t=8638&hilit=Creatures"
+            },
+            {
+                "name" : "Diamond",
+                "short" : "D",
+                "url" : "version/minetest/diamond.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png"
+            },
+            {
+                "name" : "Fake fire",
+                "short" : "FF",
+                "url" : "version/minetest/fake_fire.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=9&t=10011&hilit=Fake+fire"
+            },
+            {
+                "name" : "Homedecor",
+                "short" : "HD",
+                "url" : "version/minetest/homedecor.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=11&t=2041&hilit=homedecor"
+            },
+            {
+                "name" : "Mapgen",
+                "short" : "MG",
+                "url" : "version/minetest/mg.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=9&t=7263"
+            },
+            {
+                "name" : "Moreores",
+                "short" : "MO",
+                "url" : "version/minetest/moreores.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=13&t=549"
+            },
+            {
+                "name" : "Nether",
+                "short" : "Ntr",
+                "url" : "version/minetest/nether.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=11&t=5790&hilit=Nether"
+            },
+            {
+                "name" : "Quartz",
+                "short" : "Qrz",
+                "url" : "version/minetest/quartz.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=11&t=5682&hilit=quartz"
+            },
+            {
+                "name" : "XRay",
+                "short" : "XR",
+                "url" : "version/minetest/xray_stone.png.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png"
             }
         ]
