@@ -42,6 +42,9 @@ var MinecraftAutoPack = Queue.extend({
     
         this.version = version;
         this.list = list;
+                        
+        $('#full').show();
+        $('#full').css('opacity', 1);
         
         this._super( this.list );
         
@@ -50,12 +53,19 @@ var MinecraftAutoPack = Queue.extend({
     state: function( item ) {
         var _this = this;
         JSZipUtils.getBinaryContent( item.url, function(err, data){_this.reply( item, err, data)} );
+        
+        var li = $('<li id="dl_'+item.short+'" class="dl"><span>'+item.name+' '+item.name+'</label></li>');
+        li.css('backgroundImage', 'url('+item.img+')');
+        $('#popup ul').append(li);
     },
     
     replyAction: function( item, err, data ) {
         
         if(err) throw err;
         item.zip = new JSZip(data);
+        
+        var span = $('#dl_'+item.short+' span');
+        span.css('backgroundImage', 'url("img/done.gif")');
         
     },
     
@@ -96,6 +106,10 @@ var MinecraftAutoPack = Queue.extend({
         // generate
         var content = zip.generate({type:"blob"});
         saveAs(content, title.join('_')+'_'+this.version+".zip");
+                        
+        $('#full').hide();
+        $('#full').css('opacity', 0);
+        $('#full ul *').remove();
         
     }
 
@@ -120,13 +134,13 @@ Zepto(function($){
                 var fiel = $('<fieldset class="col col1"><h2><span>'+vers.legend+'</span></h2></fieldset>');
                 var ul = $('<ul class="fixe"/>');
                 var input = $('<input name="version" type="hidden" value="'+vers.version+'"/>');
-                var button = $('<button id="but_'+vers.version.split('.').join('-')+'" class="variant_'+i+'">Download</button>');
+                var button = $('<button id="but_'+vers.version.split('.').join('-')+'" ref="variant_'+i+'" class="button">Download</button>');
                 
                 for( var j = 0, jl = vers.variant.length ; j < jl ; j++ ) {
                     
                     var pack = vers.variant[j];
                     var id = '_'+i+'_'+j;
-                    var li = $('<li class="button dl" style="background-image: url('+pack.img+')"><input id="input'+id+'" '+(j==0?'checked="checked"':' ')+'type="checkbox" name="list" value="'+j+'"/><label for="input'+id+'">'+pack.name+' '+pack.version+'</label></li>');
+                    var li = $('<li class="dl" style="background-image: url('+pack.img+')"><input id="input'+id+'" '+(j==0?'checked="checked"':' ')+'type="checkbox" name="list" value="'+j+'"/><label for="input'+id+'">'+pack.name+' '+pack.version+'</label></li>');
                     
                     ul.append(li);
                 }
@@ -141,18 +155,19 @@ Zepto(function($){
                 //event
                 button.on('click', function(e){
                     e.preventDefault();
-                    var vt = this.className.split('variant_').join('');
+                    var vt = $(this).attr('ref').split('variant_').join('');
                     var vers = data[vt];
                     
                     var version = this.id.split('but_').join('');
                     var checked = $('#form_'+version+' input[name="list"]:checked');
                     
-                    var list = [];
-                    for( var j = 0, jl = checked.length ; j < jl ; j++ )
-                        list.push( vers.variant[checked[j].value] );
-                    
-                    new MinecraftAutoPack( vers.version, list );
-                    
+                    if( checked.length > 0 ) {
+                        var list = [];
+                        for( var j = 0, jl = checked.length ; j < jl ; j++ )
+                            list.push( vers.variant[checked[j].value] );
+                        
+                        new MinecraftAutoPack( vers.version, list );
+                    }
                 });
             }
         }
