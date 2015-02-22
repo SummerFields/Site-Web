@@ -145,6 +145,8 @@ Zepto(function($){
                 for( var j = 0, jl = vers.variant.length ; j < jl ; j++ ) {
                     
                     var pack = vers.variant[j];
+                    pack.version = pack.version || '';
+                    pack.link = pack.link || '';
                     var id = '_'+i+'_'+j;
                     var link = pack.link != '' ? ' -> <a href="'+pack.link+'">site</a>' : '';
                     var li = $('<li class="dl" style="background-image: url('+pack.img+')"><input id="input'+id+'" '+(j==0?'checked="checked"':' ')+'type="checkbox" name="list" value="'+j+'"/><label for="input'+id+'">'+pack.name+' '+pack.version+link+'</label></li>');
