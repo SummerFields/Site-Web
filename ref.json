@@ -72,17 +72,24 @@
         "legend" : "Download 1.6.X",
         "variant" : [
             {
+                "name" : "Summerfields",
+                "short" : "Summerfields",
+                "version" : "",
+                "url" : "version/1.6.X/SummerField_1.6.4.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png"
+            },
+            {
                 "name" : "Feed The Beast",
                 "short" : "FTB",
                 "version" : "",
-                "url" : "version/1.6.X/SummerFields_FTB_1-6_07_24_14.zip",
+                "url" : "version/1.6.X/FTB_1-6_07_24_14.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png"
             },
             {
                 "name" : "TerraFirmaCraft",
                 "short" : "TFC",
                 "version" : "",
-                "url" : "version/1.6.X/Mod_TerraFirmaCraft_SummerFields_1.6.4.zip",
+                "url" : "version/1.6.X/TerraFirmaCraft_1.6.4.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png"
             }
         ]
