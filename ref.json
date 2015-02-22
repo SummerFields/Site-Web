@@ -43,11 +43,12 @@
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/mp-pack.png"
             },
             {
-                "name" : "Twilight Forest",
-                "short" : "TF",
-                "url" : "version/1.7.X/Mod_Twilight_Forest_SummerFields_1.7.2.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-Twilight-Forest/master/pack.png",
-                "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276258-the-twilight-forest-v2-3-3-snow-queen-troll"
+                "name" : "TerraFirmaCraft",
+                "short" : "TFC",
+                "version" : "v7",
+                "url" : "version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-7.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png",
+                "link" : "http://terrafirmacraft.com/index.html"
             },
             {
                 "name" : "Improving Minecraft",
@@ -57,13 +58,42 @@
                 "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294646-improving-minecraft-v1-6"
             },
             {
-                "name" : "TerraFirmaCraft",
-                "short" : "TFC",
-                "version" : "v7",
-                "url" : "version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-7.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png",
-                "link" : "http://terrafirmacraft.com/index.html"
+                "name" : "Twilight Forest",
+                "short" : "TF",
+                "url" : "version/1.7.X/Mod_Twilight_Forest_SummerFields_1.7.2.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-Twilight-Forest/master/pack.png",
+                "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276258-the-twilight-forest-v2-3-3-snow-queen-troll"
+            },
+            {
+                "name" : "BiblioCraft",
+                "short" : "BBC",
+                "url" : "version/1.7.X/BiblioCraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://www.bibliocraftmod.com/"
+            },
+            {
+                "name" : "Mystcraft",
+                "short" : "MyC",
+                "url" : "version/1.7.X/mystcraft.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280070-mystcraft-0-11-0"
+            },
+            {
+                "name" : "Natura",
+                "short" : "N",
+                "url" : "version/1.7.X/natura.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://ftbwiki.org/Natura"
+            },
+            {
+                "name" : "Tinkers' Construct",
+                "short" : "TK",
+                "url" : "version/1.7.X/TConstruct.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://tinkers-construct.wikia.com/"
             }
+            
+            
         ]
     },
     {
