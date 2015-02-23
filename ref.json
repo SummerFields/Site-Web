@@ -54,6 +54,14 @@
                 "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294646-improving-minecraft-v1-6"
             },
             {
+                "name" : "Millenaire",
+                "percent" : 5,
+                "short" : "Mill",
+                "url" : "version/1.7.X/millenaire.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "link" : "http://millenaire.org"
+            },
+            {
                 "name" : "Twilight Forest",
                 "short" : "TF",
                 "url" : "version/1.7.X/Mod_Twilight_Forest_SummerFields_1.7.2.zip",
