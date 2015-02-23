@@ -17,13 +17,6 @@
                 "version" : "Béta 3",
                 "url" : "version/1.8.X/SummerFields_mcpatcher_1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/mp-pack.png"
-            },
-            {
-                "name" : "Ce pack ne marche",
-                "short" : "McP",
-                "version" : "pas",
-                "url" : "version/1.8.X/SummerFields_mcpatcher_1.8. zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/mp-pack.png"
             }
         ]
     },
