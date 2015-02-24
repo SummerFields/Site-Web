@@ -302,7 +302,7 @@
                 "link" : "http://www.minetest.net/"
             },
             {
-                "name" : "Carts And Boost_Cart",
+                "name" : "Carts, Boost Cart AND Carts Plus",
                 "percent" : 100,
                 "short" : "CaBC",
                 "url" : "version/minetest/boost_cart_carts.zip",
