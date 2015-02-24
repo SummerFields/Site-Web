@@ -302,6 +302,14 @@
                 "link" : "http://www.minetest.net/"
             },
             {
+                "name" : "Carts And Boost_Cart",
+                "percent" : 100,
+                "short" : "CaBC",
+                "url" : "version/minetest/boost_cart_carts.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?f=11&t=2451&hilit=boost_cart"
+            },
+            {
                 "name" : "3d Armor",
                 "percent" : 95,
                 "short" : "3dA",
