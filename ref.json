@@ -302,6 +302,14 @@
                 "link" : "http://www.minetest.net/"
             },
             {
+                "name" : "Locked Furnace",
+                "percent" : 100,
+                "short" : "LF",
+                "url" : "version/minetest/locked_furnace.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
+                "link" : "https://forum.minetest.net/viewtopic.php?id=2779"
+            },
+            {
                 "name" : "Carts, Boost Cart AND Carts Plus",
                 "percent" : 100,
                 "short" : "CaBC",
