@@ -80,6 +80,7 @@
     -webkit-transition: all 0.2s ease 0s;
             transition: all 0.2s ease 0s;
     right: -104px;
+	pointer-events: none;
 }
 /* Aspect si "pas cochée" */
 [type="checkbox"]:not(:checked) + label:after {
