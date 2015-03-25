@@ -5,18 +5,25 @@
         "variant" : [
             {
                 "name" : "SummerFields",
-                "percent" : 95,
+                "percent" : 100,
                 "short" : "SummerFields",
-                "version" : "Béta 3",
+                "version" : "",
                 "url" : "version/1.8.X/SummerFields-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
+                "name" : "Summerfields 3d",
+                "short" : "3d",
+                "version" : "",
+                "url" : "version/1.8.X/Summerfields-3d-1.8.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Summerfields-3d/master/pack.png"
+            },
+            {
                 "name" : "McPatcher",
                 "short" : "McP",
-                "version" : "Béta 3",
-                "url" : "version/1.8.X/SummerFields_mcpatcher_1.8.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/mp-pack.png"
+                "version" : "",
+                "url" : "version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-OptiFine-McPatcher/master/pack.png"
             }
         ]
     },
