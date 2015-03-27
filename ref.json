@@ -7,21 +7,18 @@
                 "name" : "SummerFields",
                 "percent" : 100,
                 "short" : "SummerFields",
-                "version" : "",
                 "url" : "version/1.8.X/SummerFields-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
                 "name" : "Summerfields 3d",
                 "short" : "3d",
-                "version" : "",
                 "url" : "version/1.8.X/Summerfields-3d-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Summerfields-3d/master/pack.png"
             },
             {
                 "name" : "McPatcher",
                 "short" : "McP",
-                "version" : "",
                 "url" : "version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Mod-OptiFine-McPatcher/master/pack.png"
             }
