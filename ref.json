@@ -11,6 +11,13 @@
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
+                "name" : "Love 15w14a 1 avril",
+                "percent" : 100,
+                "short" : "Love",
+                "url" : "version/1.8.X/Summerfields Love.zip",
+                "img" : "https://cloud.githubusercontent.com/assets/401965/6939815/776ecb6a-d870-11e4-8e03-2184ff3927fb.png"
+            },
+            {
                 "name" : "Summerfields 3d",
                 "short" : "3d",
                 "url" : "version/1.8.X/Summerfields-3d-1.8.zip",
