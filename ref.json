@@ -50,9 +50,9 @@
             },
             {
                 "name" : "TerraFirmaCraft",
-                "percent" : 82,
+                "percent" : 83,
                 "short" : "TFC",
-                "version" : "v7",
+                "version" : "v8",
                 "url" : "version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png",
                 "link" : "http://terrafirmacraft.com/index.html"
