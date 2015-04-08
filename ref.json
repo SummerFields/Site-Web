@@ -59,6 +59,7 @@
             },
             {
                 "name" : "Thaumcraft",
+                "percent" : 28,
                 "short" : "TC",
                 "url" : "version/1.7.X/Thaumcraft-1.7.10_1.zip",
                 "img" : "https://cloud.githubusercontent.com/assets/401965/7046104/cad9b72c-de03-11e4-9144-177eed03cffc.png",
