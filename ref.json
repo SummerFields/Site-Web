@@ -58,6 +58,13 @@
                 "link" : "http://terrafirmacraft.com/index.html"
             },
             {
+                "name" : "Thaumcraft",
+                "short" : "TC",
+                "url" : "version/1.7.X/Thaumcraft-1.7.10_1.zip",
+                "img" : "https://cloud.githubusercontent.com/assets/401965/7046104/cad9b72c-de03-11e4-9144-177eed03cffc.png",
+                "link" : "http://thaumcraft-4.wikia.com/"
+            },
+            {
                 "name" : "Improving Minecraft",
                 "short" : "IM",
                 "url" : "version/1.7.X/Mod-Improving-Minecraft_SummerFields_1.7.10.zip",
@@ -280,7 +287,7 @@
                 "name" : "Thaumcraft",
                 "short" : "TC",
                 "url" : "version/1.6.X/thaumcraft.zip",
-                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
+                "img" : "https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png",
                 "link" : "http://thaumcraft-4.wikia.com/"
             },
             {
