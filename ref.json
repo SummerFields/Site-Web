@@ -11,11 +11,11 @@
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
-                "name" : "Love 15w14a 1 avril",
+                "name" : "Farmcraft",
                 "percent" : 100,
-                "short" : "Love",
-                "url" : "version/1.8.X/Summerfields Love.zip",
-                "img" : "https://cloud.githubusercontent.com/assets/401965/6939815/776ecb6a-d870-11e4-8e03-2184ff3927fb.png"
+                "short" : "FC",
+                "url" : "version/1.8.X/Farmcraft.zip",
+                "img" : "https://cloud.githubusercontent.com/assets/401965/7333297/856046a6-eb6a-11e4-973b-92048462e496.png"
             },
             {
                 "name" : "Summerfields 3d",
