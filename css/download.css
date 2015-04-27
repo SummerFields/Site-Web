@@ -45,13 +45,7 @@
 }
 
 .dl:last-child:after {
-    content: "+";
-    position: absolute;
-    top: 44px;
-    right: -17px;
-    font-size: 31px;
-    color: #000;
-    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff;
+    content: "";
 }
 
 
