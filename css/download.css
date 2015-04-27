@@ -31,13 +31,16 @@
     display: block;
     text-align: left;
     text-decoration: none;
+    position: relative;
 }
 
 .dl:after, .dl:before {
-	content:"+";
+    content:"+";
+    position: absolute;
 }
 
 .dl:before {
+    content:"-";
 }
 
 
