@@ -37,16 +37,14 @@
 .dl::after {
     content: "+";
     position: absolute;
-    top: 44px;
+    top: -30px;
     right: -17px;
     font-size: 31px;
-    color: #000;
-    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
 }
-
-.dl:last-child {
+.dl:first-child::after {
     content: "";
-    color:red;
 }
 
 
@@ -89,7 +87,7 @@
 [type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after {
     content: "✔";
     position: absolute;
-    top: -51px;
+    top: -55px;
     font-size: 88px;
     color: ##FFF;
     -webkit-transition: all 0.2s ease 0s;
