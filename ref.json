@@ -4,22 +4,22 @@
         "legend" : "Download 1.8.X",
         "variant" : [
             {
-                "name" : "SummerFields",
+                "name" : "§6§lSummerFields",
                 "percent" : 100,
-                "short" : "SummerFields",
-                "url" : "version/1.8.X/SummerFields-1.8.4.zip",
+                "short" : "§6§lSummerFields",
+                "url" : "version/1.8.X/SummerFields-1.8.5.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
-                "name" : "Farmcraft",
+                "name" : "§2Farmcraft",
                 "percent" : 100,
-                "short" : "FC",
-                "url" : "version/1.8.X/Farmcraft.zip",
+                "short" : "§2FC",
+                "url" : "version/1.8.X/farmcraft.zip",
                 "img" : "https://cloud.githubusercontent.com/assets/401965/7333297/856046a6-eb6a-11e4-973b-92048462e496.png"
             },
             {
-                "name" : "Summerfields 3d",
-                "short" : "3d",
+                "name" : "§6§oSummerfields newmodel",
+                "short" : "§6§o3d",
                 "url" : "version/1.8.X/Summerfields-3d-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Summerfields-3d/master/pack.png"
             },
