@@ -4,22 +4,17 @@
         "legend" : "Download 1.8.X",
         "variant" : [
             {
-                "name" : "§6§lSummerFields",
+                "name" : "SummerFields",
+                "style" : "§6§l",
                 "percent" : 100,
-                "short" : "§6§lSummerFields",
+                "short" : "SummerFields",
                 "url" : "version/1.8.X/SummerFields-1.8.5.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
-                "name" : "§2Farmcraft",
-                "percent" : 100,
-                "short" : "§2FC",
-                "url" : "version/1.8.X/farmcraft.zip",
-                "img" : "https://cloud.githubusercontent.com/assets/401965/7333297/856046a6-eb6a-11e4-973b-92048462e496.png"
-            },
-            {
-                "name" : "§6§oSummerfields newmodel",
-                "short" : "§6§o3d",
+                "name" : "Summerfields newmodel",
+                "style" : "§6§o",
+                "short" : "3d",
                 "url" : "version/1.8.X/Summerfields-3d-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Summerfields-3d/master/pack.png"
             },
@@ -28,6 +23,14 @@
                 "short" : "McP",
                 "url" : "version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Mod-OptiFine-McPatcher/master/pack.png"
+            },
+            {
+                "name" : "Farmcraft",
+                "style" : "§2",
+                "percent" : 100,
+                "short" : "FC",
+                "url" : "version/1.8.X/farmcraft.zip",
+                "img" : "https://cloud.githubusercontent.com/assets/401965/7333297/856046a6-eb6a-11e4-973b-92048462e496.png"
             }
         ]
     },

@@ -98,7 +98,8 @@ var MinecraftAutoPack = Queue.extend({
         
         var title = [], desc = [], pluriel = this.length > 1 ? 's' : '';
         for( var i = 0 ; i < this.length ; i++ ) {
-            title.push(this.list[i].short);
+            this.list[i].style = this.list[i].style == undefined ? '':this.list[i].style;
+            title.push(this.list[i].style+this.list[i].short+'§r');
             desc.push(this.list[i].name);
         }
         
