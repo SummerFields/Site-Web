@@ -8,14 +8,14 @@
                 "style" : "§6§l",
                 "percent" : 100,
                 "short" : "SummerFields",
-                "url" : "version/1.8.X/SummerFields-1.8.5.zip",
+                "url" : "version/1.8.X/SummerFields-1.8.6.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
             },
             {
                 "name" : "Summerfields newmodel",
                 "style" : "§6§o",
                 "short" : "3d",
-                "url" : "version/1.8.X/Summerfields-3d-1.8.zip",
+                "url" : "version/1.8.X/Summerfields-newmodel-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Summerfields-3d/master/pack.png"
             },
             {
