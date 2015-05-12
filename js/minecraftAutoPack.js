@@ -210,7 +210,7 @@ Zepto(function($){
                         var id = '_'+i+'_3_'+j;
                         var link = pack.link != '' ? ' -> <a href="'+pack.link+'">site</a>' : '';
                         var dt = $('<dt><label style="background-image: url('+pack.img+')" for="input'+id+'">'+pack.name+' '+pack.version+'<br/>'+percent+link+'</label></dt>');
-                        var dd = $('<dd><input id="input'+id+'" '+'type="checkbox" name="list_perso" value="'+j+'"/><span class="check"/></dd>');
+                        var dd = $('<dd><input id="input'+id+'" '+'type="radio" name="list_perso" value="'+j+'"/><span class="check"/></dd>');
                         
                         dl.append(dt);
                         dl.append(dd);
@@ -228,7 +228,6 @@ Zepto(function($){
                 form.append(fiel);
                 $('#content').append(form);
                 
-                //event
                 button.on('click', function(e){
                     e.preventDefault();
                     var vt = $(this).attr('ref').split('variant_').join('');
@@ -255,6 +254,14 @@ Zepto(function($){
                         new MinecraftAutoPack( vers.version, list );
                 });
             }
+             
+            //event
+            /*$('label').on('click', function(e){
+                
+                var forr = $(this).attr('for');
+                $('input[id='+forr+'][type=radio]:checked').hide();//.removeAttr("checked");
+                
+            });*/
         }
     });
 })

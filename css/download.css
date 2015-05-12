@@ -36,7 +36,7 @@ dt.txt {
 /* section download */
 
 
-[type="checkbox"] {
+[type="checkbox"], [type="radio"] {
   position: absolute;
   left: -9999px;
 }
@@ -88,7 +88,8 @@ dt.txt {
 	pointer-events: none;
 }
 /* Aspect si "pas cochée" */
-[type="checkbox"]:not(:checked) + .check:after {
+[type="checkbox"]:not(:checked) + .check:after,
+[type="radio"]:not(:checked) + .check:after{
   opacity: 0;
   filter: alpha(opacity=0); /* coche invisible */
   -webkit-transform: scale(0);
@@ -96,7 +97,8 @@ dt.txt {
           transform: scale(0); /* mise à l'échelle à 0 */
 }
 /* Aspect si "cochée" */
-[type="checkbox"]:checked + .check:after {
+[type="checkbox"]:checked + .check:after,
+[type="radio"]:checked + .check:after  {
   opacity: 1;
   filter: alpha(opacity=100); /* coche opaque */
   -webkit-transform: scale(1);
