@@ -52,9 +52,9 @@ var MinecraftAutoPack = Queue.extend({
     
     state: function( item ) {
         
-        var li = $('<li id="dl_'+item.short+'" class="dl"><span>'+item.name+' '+item.version+'</label></li>');
-        li.css('backgroundImage', 'url('+item.img+')');
-        $('#popup ul').append(li);
+        var dt = $('<dt id="dl_'+item.short+'" class="dl"><span>'+item.name+' '+item.version+'</label></dt>');
+        dt.css('backgroundImage', 'url('+item.img+')');
+        $('#popup dl').append(dt);
         
         var _this = this;
         JSZipUtils.getBinaryContent( item.url, function(err, data){_this.reply( item, err, data)} );
@@ -137,28 +137,93 @@ Zepto(function($){
             for( var i = 0, il = data.length ; i < il ; i++ ) {
                 
                 var vers = data[i];
+                
                 var form = $('<form id="form_'+vers.version.split('.').join('-')+'"></form>');
                 var fiel = $('<fieldset class="col col1"><h2><span>'+vers.legend+'</span></h2></fieldset>');
-                var ul = $('<ul class="fixe"/>');
-                var input = $('<input name="version" type="hidden" value="'+vers.version+'"/>');
-                var button = $('<button id="but_'+vers.version.split('.').join('-')+'" ref="variant_'+i+'" class="button">Download</button>');
                 
-                for( var j = 0, jl = vers.variant.length ; j < jl ; j++ ) {
+                if( vers.base && vers.base.length > 0 ) {
+                    var list = vers.base;
                     
-                    var pack = vers.variant[j];
-                    pack.version = pack.version || '';
-                    pack.link = pack.link || '';
-                    var percent = pack.percent ? ' ('+pack.percent+'%)' : '';
-                    var id = '_'+i+'_'+j;
-                    var link = pack.link != '' ? ' -> <a href="'+pack.link+'">site</a>' : '';
-                    var li = $('<li class="dl" style="background-image: url('+pack.img+')"><input id="input'+id+'" '+(j==0?'checked="checked"':' ')+'type="checkbox" name="list" value="'+j+'"/><label for="input'+id+'">'+pack.name+' '+pack.version+percent+link+'</label></li>');
+                    var dl = $('<dl class="fixe"/>');
+                    var intro = $('<dt class="txt">Pack SummerFields vanilla.</dt>');
+                    dl.append(intro);
                     
-                    ul.append(li);
+                    for( var j = 0, jl = list.length ; j < jl ; j++ ) {
+                        
+                        var pack = list[j];
+                        pack.version = pack.version || '';
+                        pack.link = pack.link || '';
+                        var percent = pack.percent ? ' ('+pack.percent+'%)' : '';
+                        var id = '_'+i+'_1_'+j;
+                        var link = pack.link != '' ? ' -> <a href="'+pack.link+'">site</a>' : '';
+                        var dt = $('<dt><label style="background-image: url('+pack.img+')" for="input'+id+'">'+pack.name+' '+pack.version+'<br/>'+percent+link+'</label></dt>');
+                        var dd = $('<dd><input id="input'+id+'" '+(j==0?'checked="checked"':' ')+'type="checkbox" name="list_base" value="'+j+'"/><span class="check"/></dd>');
+                        
+                        dl.append(dt);
+                        dl.append(dd);
+                    }
+                    
+                    fiel.append(dl);
+                    fiel.append('<br/>');
+                
                 }
                 
-                ul.append(input);
-                ul.append(button);
-                fiel.append(ul);
+                if( vers.mod && vers.mod.length > 0 ) {
+                    var list = vers.mod;
+                    
+                    var dl = $('<dl class="fixe"/>');
+                    var intro = $('<dt class="txt">Add support for your favorite mod.</dt>');
+                    dl.append(intro);
+                    
+                    for( var j = 0, jl = list.length ; j < jl ; j++ ) {
+                        
+                        var pack = list[j];
+                        pack.version = pack.version || '';
+                        pack.link = pack.link || '';
+                        var percent = pack.percent ? ' ('+pack.percent+'%)' : '';
+                        var id = '_'+i+'_2_'+j;
+                        var link = pack.link != '' ? ' -> <a href="'+pack.link+'">site</a>' : '';
+                        var dt = $('<dt><label style="background-image: url('+pack.img+')" for="input'+id+'">'+pack.name+' '+pack.version+'<br/>'+percent+link+'</label></dt>');
+                        var dd = $('<dd><input id="input'+id+'" '+'type="checkbox" name="list_mod" value="'+j+'"/><span class="check"/></dd>');
+                        
+                        dl.append(dt);
+                        dl.append(dd);
+                    }
+                    
+                    fiel.append(dl);
+                
+                }
+                
+                if( vers.perso && vers.perso.length > 0 ) {
+                    var list = vers.perso;
+                    
+                    var dl = $('<dl class="fixe"/>');
+                    var intro = $('<dt class="txt">Add packs by the contributors.</dt>');
+                    dl.append(intro);
+                    
+                    for( var j = 0, jl = list.length ; j < jl ; j++ ) {
+                        
+                        var pack = list[j];
+                        pack.version = pack.version || '';
+                        pack.link = pack.link || '';
+                        var percent = pack.percent ? ' ('+pack.percent+'%)' : '';
+                        var id = '_'+i+'_3_'+j;
+                        var link = pack.link != '' ? ' -> <a href="'+pack.link+'">site</a>' : '';
+                        var dt = $('<dt><label style="background-image: url('+pack.img+')" for="input'+id+'">'+pack.name+' '+pack.version+'<br/>'+percent+link+'</label></dt>');
+                        var dd = $('<dd><input id="input'+id+'" '+'type="checkbox" name="list_perso" value="'+j+'"/><span class="check"/></dd>');
+                        
+                        dl.append(dt);
+                        dl.append(dd);
+                    }
+                    
+                    fiel.append(dl);
+                
+                }
+                
+                fiel.append( $('<input name="version" type="hidden" value="'+vers.version+'"/>') );
+                button = $('<button id="but_'+vers.version.split('.').join('-')+'" ref="variant_'+i+'" class="button">Download</button>') 
+                fiel.append( button );
+                
                 fiel.append('<br class="clear"/>');
                 form.append(fiel);
                 $('#content').append(form);
@@ -168,17 +233,26 @@ Zepto(function($){
                     e.preventDefault();
                     var vt = $(this).attr('ref').split('variant_').join('');
                     var vers = data[vt];
-                    
                     var version = this.id.split('but_').join('');
-                    var checked = $('#form_'+version+' input[name="list"]:checked');
+                    var list = [];
                     
-                    if( checked.length > 0 ) {
-                        var list = [];
+                    var checked = $('#form_'+version+' input[name="list_base"]:checked');
+                    if( checked.length > 0 )
                         for( var j = 0, jl = checked.length ; j < jl ; j++ )
-                            list.push( vers.variant[checked[j].value] );
-                        
+                            list.push( vers.base[checked[j].value] );
+                    
+                    var checked = $('#form_'+version+' input[name="list_mod"]:checked');
+                    if( checked.length > 0 )
+                        for( var j = 0, jl = checked.length ; j < jl ; j++ )
+                            list.push( vers.mod[checked[j].value] );
+                    
+                    var checked = $('#form_'+version+' input[name="list_perso"]:checked');
+                    if( checked.length > 0 )
+                        for( var j = 0, jl = checked.length ; j < jl ; j++ )
+                            list.push( vers.perso[checked[j].value] );
+                    
+                    if( list.length > 0 )
                         new MinecraftAutoPack( vers.version, list );
-                    }
                 });
             }
         }

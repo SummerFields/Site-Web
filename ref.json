@@ -2,7 +2,7 @@
     {
         "version" : "1.8.X",
         "legend" : "Download 1.8.X",
-        "variant" : [
+        "base" : [
             {
                 "name" : "SummerFields",
                 "style" : "§6§l",
@@ -17,13 +17,17 @@
                 "short" : "3d",
                 "url" : "version/1.8.X/Summerfields-newmodel-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Summerfields-3d/master/pack.png"
-            },
+            }
+        ],
+        "mod" : [
             {
                 "name" : "McPatcher",
                 "short" : "McP",
                 "url" : "version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Mod-OptiFine-McPatcher/master/pack.png"
-            },
+            }
+        ],
+        "perso" : [
             {
                 "name" : "Farmcraft",
                 "style" : "§2",
@@ -37,14 +41,16 @@
     {
         "version" : "1.7.X",
         "legend" : "Download 1.7.X",
-        "variant" : [
+        "base" : [
             {
                 "name" : "Summerfields",
                 "percent" : 100,
                 "short" : "Summerfields",
                 "url" : "version/1.7.X/SummerFields_1.7.10.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png"
-            },
+            }
+        ],
+        "mod" : [
             {
                 "name" : "McPatcher",
                 "short" : "McP",
@@ -122,21 +128,21 @@
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png",
                 "link" : "http://tinkers-construct.wikia.com/"
             }
-            
-            
         ]
     },
     {
         "version" : "1.6.X",
         "legend" : "Download 1.6.X",
-        "variant" : [
+        "base" : [
             {
                 "name" : "Summerfields",
                 "short" : "Summerfields",
                 "url" : "version/1.6.X/SummerField_1.6.4.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png",
                 "link" : ""
-            },
+            }
+        ],
+        "mod" : [
             {
                 "name" : "TerraFirmaCraft",
                 "short" : "TFC",
@@ -314,7 +320,7 @@
     {
         "version" : "Minetest",
         "legend" : "Minetest",
-        "variant" : [
+        "base" : [
             {
                 "name" : "Minetest",
                 "percent" : 99,
@@ -322,7 +328,9 @@
                 "url" : "version/minetest/minetest_game_0.4.11.zip",
                 "img" : "https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png",
                 "link" : "http://www.minetest.net/"
-            },
+            }
+        ],
+        "mod" : [
             {
                 "name" : "3d Armor AND Shields",
                 "percent" : 100,

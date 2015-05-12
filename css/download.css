@@ -9,94 +9,86 @@
 
 /* section download */
 
+
 #Download { background-image: url("../img/wool_colored_black.min.png"); }
-#Download .fixe {
+
+#Download fieldset {
+    text-align: center;
+}
+
+.fixe {
     height: 60%;
     max-width: 488px;
     padding: 9px 4px;
+	display: inline-block;
+	margin: 2em;
+	vertical-align: top;
 }
 
-.dl {
-    background-size: 64px;
-    border: 0 none;
-    color: #FFFFFF;
-    font-family: Minecraft;
-    font-weight: normal;
-    height: 64px;
-    margin: 0 0 10px;
-    padding: 0 0 0 74px;
-    text-shadow: none;
-    width: auto;
-    background-repeat: no-repeat;
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    position: relative;
+dt {
 }
 
-.dl::after {
-    content: "+";
-    position: absolute;
-    top: -30px;
-    right: -17px;
-    font-size: 31px;
-    color: rgba(255, 255, 255, 0.7);
-    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
+dt.txt {
+    margin: 2em;
+    padding: 0;
 }
-.dl:first-child::after {
-    content: "";
-}
-
-
-
 
 /* section download */
 
 
-
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
+[type="checkbox"] {
   position: absolute;
   left: -9999px;
 }
 
-[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {
+#Download dt {
     position: relative;
+    z-index: 20;
+}
+#Download label {
     cursor: pointer;
-    width: 321px;
+    text-align: center;
+    background-size: 64px auto;
+    font-family: Minecraft;
+    font-weight: normal;
+    height: 64px;
+    background-repeat: no-repeat;
     display: block;
-	text-align: center;
 }
 
 /* Aspect des checkboxes */
 /* :before sert à créer la case à cocher */
-[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before {
+
+#Download dd {
+	position: relative;
+}
+#Download .check:before {
     content: "";
     position: absolute;
-    top: 0px;
+	top: -64px;
     width: 64px;
     height: 64px;
     border: 1px solid #AAA;
     background: none repeat scroll 0% 0% rgba(248, 248, 248, 0.6);
     border-radius: 3px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) inset;
-    right: -83px;
+    right: 0;
 }
- 
+
 /* Aspect général de la coche */
-[type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after {
+#Download .check:after {
     content: "✔";
     position: absolute;
-    top: -55px;
+	top: -101px;
     font-size: 88px;
     color: ##FFF;
     -webkit-transition: all 0.2s ease 0s;
             transition: all 0.2s ease 0s;
-    right: -104px;
+    right: -18px;
 	pointer-events: none;
 }
 /* Aspect si "pas cochée" */
-[type="checkbox"]:not(:checked) + label:after {
+[type="checkbox"]:not(:checked) + .check:after {
   opacity: 0;
   filter: alpha(opacity=0); /* coche invisible */
   -webkit-transform: scale(0);
@@ -104,37 +96,13 @@
           transform: scale(0); /* mise à l'échelle à 0 */
 }
 /* Aspect si "cochée" */
-[type="checkbox"]:checked + label:after {
+[type="checkbox"]:checked + .check:after {
   opacity: 1;
   filter: alpha(opacity=100); /* coche opaque */
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
           transform: scale(1); /* mise à l'échelle 1:1 */
 }
-
-/* aspect désactivée */
-[type="checkbox"]:disabled:not(:checked) + label:before,
-[type="checkbox"]:disabled:checked + label:before {
-  box-shadow: none;
-  border-color: #bbb;
-  background-color: #ddd;
-}
-/* styles de la coche (si cochée/désactivée) */
-[type="checkbox"]:disabled:checked + label:after {
-  color: #999;
-}
-/* on style aussi le label quand désactivé */
-[type="checkbox"]:disabled + label {
-  color: #aaa;
-}
- 
-/* aspect au focus de l'élément */
-[type="checkbox"]:checked:focus + label:before,
-[type="checkbox"]:not(:checked):focus + label:before {
-  border: 1px dotted blue;
-}
-
-
 
 /* full */
 
@@ -152,6 +120,12 @@
 }
 #full .fixe {
     box-shadow: 0 0 20em rgba(255, 255, 255, 0.26);
+	display: block;
+	margin: 6em auto;
+}
+
+#full dt {
+    background-repeat: no-repeat;
 }
 
 #full .dl span {
@@ -162,7 +136,6 @@
     font-weight: normal;
     height: 64px;
     margin: 0px 0px 10px;
-    padding: 0px 74px 0px 0px;
     text-shadow: none;
     width: auto;
     background-repeat: no-repeat;
