@@ -1,5 +1,19 @@
 [
     {
+        "version" : "1.9.X",
+        "legend" : "Download 1.9.X",
+        "base" : [
+            {
+                "name" : "SummerFields Beta",
+                "style" : "§6§l",
+                "percent" : 100,
+                "short" : "SummerFields-b",
+                "url" : "version/1.9.X/SummerFields-1.9-beta.zip",
+                "img" : "https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png"
+            }
+        ]
+    },
+    {
         "version" : "1.8.X",
         "legend" : "Download 1.8.X",
         "base" : [
