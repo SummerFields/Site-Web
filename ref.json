@@ -36,13 +36,6 @@
         ],
         "perso" : [
             {
-                "name" : "Farmcraft by lipki",
-                "style" : "§2",
-                "short" : "FC",
-                "url" : "version/1.8.X/farmcraft.zip",
-                "img" : "https://cloud.githubusercontent.com/assets/401965/7333297/856046a6-eb6a-11e4-973b-92048462e496.png"
-            },
-            {
                 "name" : "SummerFields by ImLeeRii",
                 "short" : "ImLeeRii",
                 "url" : "version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip",
