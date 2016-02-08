@@ -45,6 +45,7 @@ var MinecraftAutoPack = Queue.extend({
                         
         $('#full').show();
         $('#full').css('opacity', 1);
+        $('#popup .fixe').empty();
         
         this._super( this.list );
         
