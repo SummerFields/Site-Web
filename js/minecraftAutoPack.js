@@ -103,9 +103,12 @@ var MinecraftAutoPack = Queue.extend({
             title.push(this.list[i].style+this.list[i].short+'§r');
             desc.push(this.list[i].name);
         }
+	
+	var format = 1;
+	if( this.version == '1.9.X' )  format = 2;
         
         var description = title.join(' - ') +" -- This resource pack contains support for mod"+pluriel+" : "+desc.join(', ');
-        var packmcmeta = '{\n\t"pack": {\n\t\t"pack_format": 1,\n\t\t"description": "'+description+'"\n\t}\n}';
+        var packmcmeta = '{\n\t"pack": {\n\t\t"pack_format": '+format+',\n\t\t"description": "'+description+'"\n\t}\n}';
         
         console.log(packmcmeta);
         
