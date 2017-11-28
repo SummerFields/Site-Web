@@ -3,6 +3,63 @@
 
 @import "{{ site.theme }}";
 
-.project-name {
-    color: red;
+body {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    background: url("assets/img/wool_colored_gray.min.png") fixed;
+}
+
+.page-header {
+    background-size: auto 543px;
+    background-repeat: no-repeat;
+    background-image: 
+        url("assets/panorama2/480_1.min.jpg"), 
+        url("assets/panorama2/480_2.min.jpg"), 
+        url("assets/panorama2/480_3.min.jpg"), 
+        url("assets/panorama2/480_4.min.jpg"), 
+        url("assets/panorama2/480_1.min.jpg"), 
+        url("assets/panorama2/480_2.min.jpg"), 
+        url("assets/panorama2/480_3.min.jpg"), 
+        url("assets/panorama2/480_4.min.jpg");
+    background-position: 
+        559.5px top, 
+        1237.5px top, 
+        1915.5px top, 
+        -118.5px top, 
+        559.5px top, 
+        1237.5px top, 
+        1915.5px top, 
+        2593.5px top;
+}
+
+h1.project-name {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: .75em;
+}
+
+h1.project-name span {
+    display: block;
+    height: 92px;
+    width: 570px;
+    background: transparent url("assets/img/summerfields.png") no-repeat scroll 0% 0%;
+    margin: 4rem auto;
+}
+
+.project-tagline {
+    display: block;
+    text-align: center;
+    margin: 2em auto 0px;
+    background: rgba(0, 0, 0, 0.64) none repeat scroll 0% 0%;
+    padding: 2rem;
+    font-size: 83%;
+    width: 37.2rem;
+}
+
+a.camo img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+    z-index: 2000;
 }
