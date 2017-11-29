@@ -58,6 +58,7 @@ h1.project-name span {
     padding: 2rem;
     font-size: 83%;
     width: 37.2rem;
+    opacity: 1;
 }
 
 a.camo img {
@@ -97,6 +98,7 @@ a.camo img {
 
 #sidebar ul li a {
     text-decoration: none;
+    color: white;
 }
 
 .button, a.button {
@@ -127,13 +129,13 @@ a.camo img {
     line-height: 0.9em;
     text-shadow: 0px 0px 0.2em #1B0F01, 0px 0px 0.2em #1C1002, 0px 0px 0.2em #1B0F02;
     text-transform: uppercase;
-    margin: -3em auto 3em;
+    margin: 1em auto 1em;
 }
 
 .post .post-content {
     text-align: left;
     margin: 2em auto 0px;
-    width: 60rem;
+    max-width: 60rem;
     background: rgba(0, 0, 0, 0.64) none repeat scroll 0% 0%;
     padding: 4%;
     font-size: 83%;
@@ -144,9 +146,9 @@ a.camo img {
     box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, 0.67);
     text-align: right;
     font-family: "Minecraft";
-    position: absolute;
     bottom: 0;
     width: 100%;
     margin: 0;
     padding: 2rem;
+    border: 0;
 }
