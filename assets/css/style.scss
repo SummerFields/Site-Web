@@ -13,6 +13,10 @@ body {
     background: url("../img/wool_colored_gray.min.png") fixed;
 }
 
+body.FAQ {
+    background-image: url("../img/wool_colored_light_blue.min.png");
+}
+
 .page-header {
     background-image: url("../panorama/panorama2/480_1.min.jpg ");
     background-attachment: fixed;
@@ -38,19 +42,11 @@ h1.project-name span {
     display: none;
 }
 
-.site-footer {
-    background: url("../img/wool_colored_black.min.png");
-    box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, 0.67);
-    text-align: right;
-    font-family: "Minecraft";
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    padding: 2rem;
+.project-tagline {
+    display: none;
 }
 
-.project-tagline {
+.idHome .project-tagline {
     display: block;
     text-align: center;
     margin: 2em auto 0px;
@@ -141,7 +137,7 @@ a.camo img {
     font-size: 83%;
 }
 
-#footer {
+.site-footer {
     background: url("../img/wool_colored_black.min.png");
     box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, 0.67);
     text-align: right;
