@@ -82,3 +82,16 @@ a.camo img {
     width: -moz-fit-content;
     width: fit-content;
 }
+
+#sidebar ul li {
+    border-right: 2px solid #FFFFFF;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0 0.6em;
+    margin: 0;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+}
