@@ -138,3 +138,15 @@ a.camo img {
     padding: 4%;
     font-size: 83%;
 }
+
+#footer {
+    background: url("../img/wool_colored_black.min.png");
+    box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, 0.67);
+    text-align: right;
+    font-family: "Minecraft";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+}
