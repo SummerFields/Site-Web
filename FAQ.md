@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layout2
 title: FAQ
 ---
 
