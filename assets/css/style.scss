@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.main-content :first-child {
+    margin-top: auto;
+}
+
 body {
     color: #FFFFFF;
     font-family: sans-serif;
@@ -10,26 +14,13 @@ body {
 }
 
 .page-header {
-    background-size: auto 543px;
-    background-repeat: no-repeat;
-    background-image: 
-        url("../panorama2/480_1.min.jpg"), 
-        url("../panorama2/480_2.min.jpg"), 
-        url("../panorama2/480_3.min.jpg"), 
-        url("../panorama2/480_4.min.jpg"), 
-        url("../panorama2/480_1.min.jpg"), 
-        url("../panorama2/480_2.min.jpg"), 
-        url("../panorama2/480_3.min.jpg"), 
-        url("../panorama2/480_4.min.jpg");
-    background-position: 
-        559.5px top, 
-        1237.5px top, 
-        1915.5px top, 
-        -118.5px top, 
-        559.5px top, 
-        1237.5px top, 
-        1915.5px top, 
-        2593.5px top;
+    background-image: url("../panorama2/480_1.min.jpg ");
+    background-attachment: fixed;
+    min-height: 19rem;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 1px;
+    box-shadow: 0px 0.5em 0.5em rgba(0, 0, 0, 0.67);
 }
 
 h1.project-name {
@@ -96,7 +87,21 @@ a.camo img {
     text-decoration: none;
 }
 
-.post h2 {
+.button, a.button {
+    border-image: url("../img/buttonhover.min.png") 6 6 6 6 fill repeat stretch;
+    border-style: solid;
+    border-width: 6px;
+    display: block;
+    width: 10em;
+    color: #291803;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px #FFF;
+    margin: 1em auto;
+    background: transparent none repeat scroll 0% 0%;
+}
+
+.main-content .post h2 {
     border-image: url("../img/woodback.min.png") 24 46 32 32 fill repeat stretch;
     border-style: solid;
     border-width: 24px 46px 32px 32px;
@@ -107,7 +112,7 @@ a.camo img {
     color: rgba(255, 241, 217, 0.59);
     font-family: Minecraft;
     font-size: 3em;
-    line-height: 0.6em;
+    line-height: 0.9em;
     text-shadow: 0px 0px 0.2em #1B0F01, 0px 0px 0.2em #1C1002, 0px 0px 0.2em #1B0F02;
     text-transform: uppercase;
     margin: -3em auto 3em;
