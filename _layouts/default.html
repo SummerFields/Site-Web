@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
   </head>
-  <body>
+  <body class="{{ page.id }}">
     <section class="page-header">
       <h1 class="project-name"><span>{{ site.title | default: site.github.repository_name }}</span></h1>
       <div class="project-tagline">
