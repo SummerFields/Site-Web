@@ -1,3 +1,8 @@
+---
+layout: default
+title: FAQ
+---
+
 <div class="post-content">
 - **Q: "What does '32x' mean ?"**
   - A: Minecraft has a default resolution of 16x. The resolution is the size of the textures, the default ones are 16 pixels by 16 pixels or '16x16' or '16x'. 32x is double that amount making it 32 pixels by 32 pixels. This gives the artist a slightly larger space to work in and allows for more detail.
