@@ -8,12 +8,12 @@ title: Games
 
 <div class="post-content">
   
-{% for pack in site.data.games %}
+{% for game in site.data.games %}
 
-  <a href="{{ site.url }}{{ games.url }}">
+  <a href="{{ site.url }}{{ game.url }}">
     <figure>
-      <img alt="{{ games.title }}" class="media" src="{{ site.url }}{{ games.image }}">
-      <figcaption>{{ games.title }}</figcaption>
+      <img alt="{{ game.title }}" class="media" src="{{ site.url }}{{ game.image }}">
+      <figcaption>{{ game.title }}</figcaption>
     </figure>
   </a>
 
