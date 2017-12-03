@@ -4,8 +4,11 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+<div class="post-content">
 {% for post in site.categories[page.category] %}
     <a href="{{ post.url | absolute_url }}">
       {{ post.content }}
     </a>
 {% endfor %}
+</div>
+
