@@ -141,22 +141,21 @@ a.camo img {
 
 /* download */
 
-.idGames ul {
-    text-align: center;
-}
-
-.idGames ul li {
-    list-style: outside none none;
-    display: inline-block;
-    padding: 0 2rem 2rem;
+.idGames .post-content {
+    display: flex;
+    justify-content: space-around;
 }
 
 .idGames figure {
     border: 1px solid #fff;
-    width: 270px;
     margin: auto;
-    height: 270px;
     box-shadow: 0 0 1em #fff;
+    padding: 6px;
+}
+
+.idGames img {
+    width: 256px;
+    height: 256px;
 }
 
 .idGames figcaption {
