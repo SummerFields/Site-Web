@@ -139,6 +139,34 @@ a.camo img {
     font-size: 83%;
 }
 
+/* download */
+
+.idGames ul {
+    text-align: center;
+}
+
+.idGames ul li {
+    list-style: outside none none;
+    display: inline-block;
+    padding: 0 2rem 2rem;
+}
+
+.idGames figure {
+    border: 1px solid #fff;
+    width: 270px;
+    margin: auto;
+    height: 270px;
+    display: table-cell;
+    vertical-align: middle;
+    box-shadow: 0 0 1em #fff;
+}
+
+.idGames figcaption {
+    display: none;
+}
+
+/* Footer */
+
 .site-footer {
     background: url("../img/wool_colored_black.min.png");
     box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, 0.67);
