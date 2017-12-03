@@ -141,24 +141,33 @@ a.camo img {
 
 /* download */
 
-.idGames .post-content {
+.idGames .post-content,
+.idMinetest .post-content,
+.idMinecraft .post-content {
     display: flex;
     justify-content: space-around;
 }
 
-.idGames figure {
+.idGames figure,
+.idMinetest figure,
+.idMinecraft figure {
     border: 1px solid #fff;
     margin: auto;
     box-shadow: 0 0 1em #fff;
     padding: 6px;
+    display: flex;
 }
 
-.idGames img {
+.idGames .main-content img,
+.idMinetest .main-content img,
+.idMinecraft .main-content img {
     width: 256px;
     height: 256px;
 }
 
-.idGames figcaption {
+.idGames figcaption,
+.idMinetest figcaption,
+.idMinecraft figcaption {
     display: none;
 }
 
