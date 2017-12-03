@@ -1,0 +1,26 @@
+- version : 1.9.X
+  legend : Download 1.9.X
+  name : SummerFields
+  style : §6§l
+  percent : 100
+  short : SummerFields
+  url : version/1.9.X/SummerFields_1.9.zip
+  img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.9/pack.png
+
+- version : 1.8.X
+  legend : Download 1.8.X
+  name : SummerFields
+  style : §6§l
+  percent : 100
+  short : SummerFields
+  url : version/1.8.X/SummerFields-1.8.8.zip
+  img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
+
+- version : 1.7.X
+  legend : Download 1.7.X
+  name : SummerFields
+  style : §6§l
+  percent : 100
+  short : SummerFields
+  url : version/1.8.X/SummerFields-1.8.8.zip
+  img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
