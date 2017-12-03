@@ -5,7 +5,20 @@ title: Games
 
 <h2>{{ page.title }}</h2>
 
+
 <div class="post-content">
+  
+{% for pack in site.data.games %}
+
+  <a href="{{ site.url }}{{ games.url }}">
+    <figure>
+      <img alt="{{ games.title }}" class="media" src="{{ site.url }}{{ games.image }}">
+      <figcaption>{{ games.title }}</figcaption>
+    </figure>
+  </a>
+
+{% endfor %}
+
   <a href="{{ site.url }}minecraft.html">
     <figure>
       <img alt="Minecraft" class="media" src="{{ site.url }}assets/img/pack_minecraft.png">
