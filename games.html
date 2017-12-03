@@ -5,6 +5,17 @@ title: Games
 
 <h2>{{ page.title }}</h2>
 
+
+{% for pack in site.data.packs %}
+
+  {{ pack.content }}
+
+{% endfor %}
+
+
+
+
+
 <div class="post-content">
   <a href="{{ site.url }}category/minecraft.html">
     <figure>
