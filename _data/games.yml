@@ -1,0 +1,7 @@
+- title : Minecraft
+  image : assets/img/pack_minecraft.png
+  url : minecraft.html
+
+- title : Minetest
+  image : assets/img/pack_minetest.png
+  url : minetest.html
