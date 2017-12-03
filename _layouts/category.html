@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>{{ page.categories }}</h2>
+<h2>{{ page.title }}</h2>
 
 {% for post in site.categories[page.category] %}
     <h3><a href="{{ post.url | absolute_url }}">
