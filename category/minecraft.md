@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Games
+title: Minecraft
 category: games
 ---
 
-## test 1
+## Minecraft
