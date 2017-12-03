@@ -4,9 +4,4 @@ description: Welcome everyone! This is SummerFields, the marvelous texture pack 
 
 url: https://summerfields.github.io/official/
 
-collections_dir: collect
-
-collections:
-  my_collection:
-    foo: bar
 
