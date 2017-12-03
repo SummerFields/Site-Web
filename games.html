@@ -5,30 +5,6 @@ title: Games
 
 <h2>{{ page.title }}</h2>
 
-{% for pack in site.data.packs %}
-
-<div>
-  
-  <div class="pack-image">
-    <img alt="" src="{{ pack.img }}">
-  </div>
-
-  <h4 class="pack-title">{{ pack.name }} {{ pack.version }} ({{ pack.percent }}%)</h4>
-
-  <div class="pack-content">
-    <p>
-      <a href="{{ pack.url }}" title="Download {{ pack.name }}"><span>↓</span></a>
-    </p>
-  </div>
-
-</div>
-
-{% endfor %}
-
-
-
-
-
 <div class="post-content">
   <a href="{{ site.url }}category/minecraft.html">
     <figure>
