@@ -2,10 +2,10 @@
 layout: default
 ---
 
-## {{ page.categories }}
+<h2>{{ page.categories }}</h2>
 
 {% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
+    <h3><a href="{{ post.url | absolute_url }}">
       {{ post.title }}
-    </a>
+    </a></h3>
 {% endfor %}
