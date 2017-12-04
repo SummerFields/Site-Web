@@ -1,37 +1,31 @@
-- title : Minecraft
-  image : assets/img/pack_minecraft.png
-  url : minecraft.html
-  packs :
-  - version : 1.9.X
-    legend : Download 1.9.X
-    name : SummerFields
-    base :
-    - style : §6§l
-      percent : 100
-      short : SummerFields
-      url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.9/SummerFields_1.9.zip
-      img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.9/pack.png
+- version : 1.9.X
+  name : SummerFields
+  image : http://summerfields.info/public/pack/pack_1.9.X.png
+  base :
+  - style : §6§l
+    percent : 100
+    short : SummerFields
+    url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.9/SummerFields_1.9.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.9/pack.png
 
-  - version : 1.8.X
-    legend : Download 1.8.X
-    name : SummerFields
-    style : §6§l
+- version : 1.8.X
+  name : SummerFields
+  image : http://summerfields.info/public/pack/pack_1.8.X.png
+  base :
+  - style : §6§l
     percent : 100
     short : SummerFields
     url : version/1.8.X/SummerFields-1.8.8.zip
     img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
 
-  - version : 1.7.X
-    legend : Download 1.7.X
-    name : SummerFields
-    style : §6§l
+- version : 1.7.X
+  name : SummerFields
+  image : http://summerfields.info/public/pack/pack_1.7.X.png
+  base :
+  - style : §6§l
     percent : 100
     short : SummerFields
     url : version/1.8.X/SummerFields-1.8.8.zip
     img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
-
-- title : Minetest
-  image : assets/img/pack_minetest.png
-  url : minetest.html
 
 
