@@ -3,16 +3,18 @@ layout: default
 title: Minecraft
 ---
 
-## Minecraft
-hop
-{% for pack in site.data.packs %}
-  <a href="#">
-    <figure>
-      <img alt="" src="{{ pack.image }}">
-      <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
-    </figure>
-  </a>
-{% endfor %}
+<h2>Minecraft</h2>
+
+<div class="content-inner">
+  {% for pack in site.data.packs %}
+    <a href="#">
+      <figure>
+        <img alt="" src="{{ pack.image }}">
+        <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
+      </figure>
+    </a>
+  {% endfor %}
+</div>
 
 
 <div>
