@@ -6,6 +6,14 @@ title: Minecraft
 ## Minecraft
 hop
 {% for pack in site.data.packs %}
+  <a href="#">
+    <figure>
+      <img alt="" src="{{ pack.image }}">
+      <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
+    </figure>
+  </a>
+{% endfor %}
+
 
 <div>
   
@@ -22,5 +30,3 @@ hop
   </div>
 
 </div>
-
-{% endfor %}
