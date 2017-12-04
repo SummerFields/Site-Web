@@ -178,6 +178,40 @@ a.camo img {
     position: absolute;
     background: black;
     display: none;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.idPacks h3 {
+    font-family: Minecraft;
+    font-size: 2rem;
+}
+.idPacks .pack-base {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0% 0%;
+    padding: 1rem;
+    text-align: left;
+    position: relative;
+}
+.idPacks .pack-image {
+    display: inline-block;
+}
+.idPacks h4 {
+    display: inline-block;
+}
+.idPacks .pack-content a {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.7rem;
+    background: #4E4E4E none repeat scroll 0% 0%;
+    height: 64px;
+    text-align: center;
+    width: 64px;
+    border-radius: 3px;
 }
 
 /* Footer */
