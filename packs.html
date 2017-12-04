@@ -1,0 +1,66 @@
+---
+layout: default
+title: Packs
+---
+
+<h2>Pack</h2>
+
+<div class="post-content">
+  {% for pack in site.data.packs %}
+    <div class="pack-version">
+      <div class="packs">
+        <ul>
+          <li>
+            <h3>Vanilla</h3>
+            <div class="pack-base">
+              <div class="pack-image">
+                <img alt="" src="{{ pack.base[0].img }}">
+              </div>
+              <h4 class="pack-title">{{ pack.base[0].name }} {{ pack.base[0].version }} ({{ pack.base[0].percent }}%)</h4>
+              <div class="pack-content">
+                <p>
+                  <a href="{{ pack.base[0].url }}" title="Download {{ pack.base[0].name }}"><span>↓</span></a>
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <h3>Custom</h3>
+            {% for custom in pack.custom %}
+              <div class="pack-custom">
+                <div class="pack-image">
+                  <img alt="" src="{{ custom.img }}">
+                </div>
+                <h4 class="pack-title">{{ custom.name }} {{ custom.version }} ({{ custom.percent }}%)</h4>
+                <div class="pack-content">
+                  <p>
+                    <a href="{{ custom.url }}" title="Download {{ custom.name }}"><span>↓</span></a>
+                  </p>
+                </div>
+              </div>
+            {% endfor %}
+          </li>
+
+          <li>
+            <h3>Mod support</h3>
+            {% for support in pack.support %}
+              <div class="pack-custom">
+                <div class="pack-image">
+                  <img alt="" src="{{ support.img }}">
+                </div>
+                <h4 class="pack-title">{{ support.name }} {{ support.version }} ({{ support.percent }}%)</h4>
+                <div class="pack-content">
+                  <p>
+                    <a href="{{ support.url }}" title="Download {{ support.name }}"><span>↓</span></a>
+                  </p>
+                </div>
+              </div>
+            {% endfor %}
+          </li>
+        </ul>
+      </div> 
+    </div> 
+  
+  {% endfor %}
+</div>
