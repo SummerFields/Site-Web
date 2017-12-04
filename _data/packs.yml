@@ -4,7 +4,6 @@
   base :
   - style : §6§l
     percent : 100
-    short : SummerFields
     url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.9/SummerFields_1.9.zip
     img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.9/pack.png
 
@@ -14,8 +13,17 @@
   base :
   - style : §6§l
     percent : 100
-    short : SummerFields
     url : version/1.8.X/SummerFields-1.8.8.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
+  mod :
+  - name" : McPatcher
+    short" : McP
+    url" : version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip
+    img" : https://raw.githubusercontent.com/SummerFields/Mod-OptiFine-McPatcher/master/pack.png
+  perso :
+  - name : SummerFields by ImLeeRii
+    short : ImLeeRii
+    url : version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
     img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
 
 - version : 1.7.X
@@ -24,8 +32,197 @@
   base :
   - style : §6§l
     percent : 100
-    short : SummerFields
     url : version/1.8.X/SummerFields-1.8.8.zip
     img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
+  mod :
+  - name : McPatcher
+    short : McP
+    url : version/1.7.X/SummerFields_mcpatcher_1.7.10.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/mp-pack.png
+  - name : TerraFirmaCraft
+    percent : 83
+    short : TFC
+    version : v8
+    url : version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-8.zip
+    img : https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png
+    link : http://terrafirmacraft.com/index.html
+  - name : Thaumcraft
+    percent : 28
+    short : TC
+    url : version/1.7.X/Thaumcraft-1.7.10_1.zip
+    img : https://cloud.githubusercontent.com/assets/401965/7046104/cad9b72c-de03-11e4-9144-177eed03cffc.png
+    link : http://thaumcraft-4.wikia.com/
+  - name : Improving Minecraft
+    short : IM
+    url : version/1.7.X/Mod-Improving-Minecraft_SummerFields_1.7.10.zip
+    img : https://raw.github.com/SummerFields/Mod-Improving-Minecraft/master/pack.png
+    link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294646-improving-minecraft-v1-6
+  - name : Millenaire
+    percent : 5
+    short : Mill
+    url : version/1.7.X/millenaire.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://millenaire.org
+  - name : Twilight Forest
+    short : TF
+    url : version/1.7.X/Mod_Twilight_Forest_SummerFields_1.7.2.zip
+    img : https://raw.githubusercontent.com/SummerFields/Mod-Twilight-Forest/master/pack.png
+    link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276258-the-twilight-forest-v2-3-3-snow-queen-troll
+  - name : BiblioCraft
+    percent : 20
+    short : BBC
+    url : version/1.7.X/BiblioCraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://www.bibliocraftmod.com/
+  - name : Mystcraft
+    percent : 7
+    short : MyC
+    url : version/1.7.X/mystcraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280070-mystcraft-0-11-0
+  - name : Natura
+    percent : 6
+    short : N
+    url : version/1.7.X/natura.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/Natura
+  - name : Tinkers' Construct
+    percent : 7
+    short : TK
+    url : version/1.7.X/TConstruct.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://tinkers-construct.wikia.com/
 
+- version : 1.6.X
+  name : SummerFields
+  image : http://summerfields.info/public/pack/pack_1.6.X.png
+  base :
+  - style : §6§l
+    url : version/1.6.X/SummerField_1.6.4.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.7/pack.png
+  mod :
+  - name : TerraFirmaCraft
+    short : TFC
+    url : version/1.6.X/TerraFirmaCraft_1.6.4.zip
+    img : https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png
+    link : http://terrafirmacraft.com/index.html
+  - name : Applied_Energistics
+    short : AE
+    url : version/1.6.X/Applied_Energistics.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/Applied_Energistics
+  - name : BiblioCraft
+    percent : 20
+    short : BBC
+    url : version/1.6.X/bibliocraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://www.bibliocraftmod.com/
+  - name : Biomes O' Plenty
+    short : BOP
+    url : version/1.6.X/biomesoplenty.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://biomesoplenty.wikia.com/wiki/Biomes_O%27_Plenty_Wiki
+  - name : BuildCraft
+    short : BC
+    url : version/1.6.X/buildcraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://www.mod-buildcraft.com/
+  - name : DartCraft
+    short : DC
+    url : version/1.6.X/dartcraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/DartCraft
+  - name : Extra Utilities
+    short : EU
+    url : version/1.6.X/extrautils.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/Extra_Utilities
+  - name : Factorization
+    short : FZ
+    url : version/1.6.X/factorization.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://feed-the-beast.wikia.com/wiki/Factorization
+  - name : Forestry
+    short : FO
+    url : version/1.6.X/forestry.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://forestry.sengir.net/
+  - name : GeoStrata
+    short : GS
+    url : version/1.6.X/geostrata.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/GeoStrata
+  - name : Industrial Craft
+    short : IDC
+    url : version/1.6.X/ic2.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://wiki.industrial-craft.net/
+  - name : Iron chests
+    short : IC
+    url : version/1.6.X/ironchest.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/Iron_Chest
+  - name : Magical Crops
+    short : MC
+    url : version/1.6.X/magicalcrops.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/Magical_Crops
+  - name : Mekanism
+    short : M
+    url : version/1.6.X/mekanism.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://wiki.aidancbrady.com/
+  - name : Modular Force Field System
+    short : MFFS
+    url : version/1.6.X/mffs.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288023-1-6-4-modular-force-field-system-force-fields
+  - name : MineFactory Reloaded
+    short : MFR
+    url : version/1.6.X/minefactoryreloaded.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/MineFactory_Reloaded
+  - name : Mystcraft
+    percent : 7
+    short : MyC
+    url : version/1.6.X/mystcraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280070-mystcraft-0-11-0
+  - name : Natura
+    percent : 6
+    short : N
+    url : version/1.6.X/natura.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/Natura
+  - name : Nether Ores
+    short : NO
+    url : version/1.6.X/netherores.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://teamcofh.com/nether-ores/
+  - name : Project Red
+    short : PR
+    url : version/1.6.X/projectred.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://projectredwiki.com/
+  - name : Railcraft
+    short : RC
+    url : version/1.6.X/railcraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://www.railcraft.info/
+  - name : Thaumcraft
+    short : TC
+    url : version/1.6.X/thaumcraft.zip
+    img : https://raw.githubusercontent.com/SummerFields/Mod-TerraFirmaCraft/master/pack.png
+    link : http://thaumcraft-4.wikia.com/
+  - name : Thermal Expansion
+    short : TE
+    url : version/1.6.X/thermalexpansion.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://ftbwiki.org/Thermal_Expansion_3
+  - name : Tinkers' Construct
+    percent : 7
+    short : TK
+    url : version/1.6.X/tinker.zip
+    img : https://raw.githubusercontent.com/SummerFields/SummerFields/FTB/pack.png
+    link : http://tinkers-construct.wikia.com/
 
