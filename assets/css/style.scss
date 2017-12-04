@@ -146,6 +146,7 @@ a.camo img {
 .idMinecraft .post-content {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .idGames figure,
@@ -156,6 +157,7 @@ a.camo img {
     box-shadow: 0 0 1em #fff;
     padding: 6px;
     display: flex;
+    margin-bottom: 3em;
 }
 
 .idGames .main-content img,
@@ -168,6 +170,13 @@ a.camo img {
 .idGames figcaption,
 .idMinetest figcaption,
 .idMinecraft figcaption {
+    display: none;
+}
+
+.idMinetest .packs,
+.idMinecraft .packs {
+    position: absolute;
+    background: black;
     display: none;
 }
 
