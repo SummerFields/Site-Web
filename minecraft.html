@@ -13,22 +13,18 @@ title: Minecraft
         <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
       </figure>
     </a>
-  {% endfor %}
-</div>
-
-
-<div>
   
-  <div class="pack-image">
-    <img alt="" src="{{ pack.img }}">
-  </div>
-
-  <h4 class="pack-title">{{ pack.name }} {{ pack.version }} ({{ pack.percent }}%)</h4>
-
-  <div class="pack-content">
-    <p>
-      <a href="{{ pack.url }}" title="Download {{ pack.name }}"><span>↓</span></a>
-    </p>
-  </div>
-
+    <div>
+      <div class="pack-image">
+        <img alt="" src="{{ pack.base[0].img }}">
+      </div>
+      <h4 class="pack-title">{{ pack.base[0].name }} {{ pack.base[0].version }} ({{ pack.base[0].percent }}%)</h4>
+      <div class="pack-content">
+        <p>
+          <a href="{{ pack.base[0].url }}" title="Download {{ pack.base[0].name }}"><span>↓</span></a>
+        </p>
+      </div>
+    </div>  
+  
+  {% endfor %}
 </div>
