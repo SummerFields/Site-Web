@@ -1,0 +1,18 @@
+---
+layout: default
+title: Images
+---
+
+<h2>Images</h2>
+
+<div class="post-content">
+  {% for folder in site.data.screens %}
+    <div class="flexslider">
+    <ul class="slides">
+      {% for screen in folder %}
+          <li><img alt="{{ screen }}" class="media" src="{{ folder }}{{ screen }}"></li>
+      {% endfor %}
+    </ul>
+    </div>
+  {% endfor %}
+</div>
