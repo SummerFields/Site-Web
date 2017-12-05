@@ -185,8 +185,11 @@ a.camo img {
 .idPacks h3 {
     font-family: Minecraft;
     font-size: 2rem;
+    color: white;
 }
-.idPacks .pack-base {
+.idPacks .pack-base,
+.idPacks .pack-custom,
+.idPacks .pack-mod {
     background: rgba(0, 0, 0, 0.54) none repeat scroll 0% 0%;
     padding: 1rem;
     text-align: left;
@@ -212,6 +215,10 @@ a.camo img {
     text-align: center;
     width: 64px;
     border-radius: 3px;
+}
+
+.idPacks .packs li {
+    list-style: none;
 }
 
 /* Footer */
