@@ -1,6 +1,6 @@
 - version : 1.11.X
   name : SummerFields
-  image : {{ site.url }}assets/packs/pack_1.11.X.png
+  image : assets/packs/pack_1.11.X.png
   base :
   - style : §6§l
     percent : 100
@@ -9,7 +9,7 @@
   
 - version : 1.10.X
   name : SummerFields
-  image : {{ site.url }}assets/packs/pack_1.10.X.png
+  image : assets/packs/pack_1.10.X.png
   base :
   - style : §6§l
     percent : 100
@@ -27,7 +27,7 @@
 
 - version : 1.9.X
   name : SummerFields
-  image : {{ site.url }}assets/packs/pack_1.9.X.png
+  image : assets/packs/pack_1.9.X.png
   base :
   - style : §6§l
     percent : 100
@@ -45,7 +45,7 @@
 
 - version : 1.8.X
   name : SummerFields
-  image : {{ site.url }}assets/packs/pack_1.8.X.png
+  image : assets/packs/pack_1.8.X.png
   base :
   - style : §6§l
     percent : 100
@@ -68,7 +68,7 @@
 
 - version : 1.7.X
   name : SummerFields
-  image : {{ site.url }}assets/packs/pack_1.7.X.png
+  image : assets/packs/pack_1.7.X.png
   base :
   - style : §6§l
     percent : 100
@@ -135,7 +135,7 @@
 
 - version : 1.6.X
   name : SummerFields
-  image : {{ site.url }}assets/packs/pack_1.6.X.png
+  image : assets/packs/pack_1.6.X.png
   base :
   - style : §6§l
     url : version/1.6.X/SummerField_1.6.4.zip
