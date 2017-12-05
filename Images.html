@@ -6,11 +6,11 @@ title: Images
 <h2>Images</h2>
 
 <div class="post-content">
-  {% for folder in site.data.screens %}
+  {% for slide in site.data.screens %}
     <div class="flexslider">
     <ul class="slides">
-      {% for screen in folder %}
-          <li><img alt="{{ screen }}" class="media" src="{{ site.url }}assets/screens/{{ folder }}/{{ screen }}"></li>
+      {% for screen in slide.files %}
+          <li><img alt="{{ screen }}" class="media" src="{{ site.url }}assets/screens/{{ slide.name }}/{{ screen }}"></li>
       {% endfor %}
     </ul>
     </div>
