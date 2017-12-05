@@ -1,3 +1,30 @@
+- version : 1.11.X
+  name : SummerFields
+  image : /public/pack/pack_1.11.X.png
+  base :
+  - style : §6§l
+    percent : 100
+    img : /public/pack/pack_1.11.X_mini.png
+    url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.11/SummerFields_1.11.zip
+  
+- version : 1.10.X
+  name : SummerFields
+  image : /public/pack/pack_1.10.X.png
+  base :
+  - style : §6§l
+    percent : 100
+    url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.10/SummerFields_1.10.zip
+    img : /public/pack/pack_1.10.X_mini.png
+  perso :
+  - name : SummerFields by ImLeeRii
+    short : ImLeeRii
+    url : /public/custom/blackForestCake/custom_blackForestCake_byTobyplowy.zip
+    img : /public/custom/blackForestCake/pack_blackForest_mini.png
+  - name : Black Forest Cake by tobyplowy
+    short : BlackForest
+    url : https://github.com/SummerFields/official/blob/gh-pages/version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : /public/pack/pack_ImLeeRii_mini.png
+
 - version : 1.9.X
   name : SummerFields
   image : http://summerfields.info/public/pack/pack_1.9.X.png
@@ -6,6 +33,15 @@
     percent : 100
     url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.9/SummerFields_1.9.zip
     img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.9/pack.png
+  perso :
+  - name : SummerFields by ImLeeRii
+    short : ImLeeRii
+    url : /public/custom/blackForestCake/custom_blackForestCake_byTobyplowy.zip
+    img : /public/custom/blackForestCake/pack_blackForest_mini.png
+  - name : Black Forest Cake by tobyplowy
+    short : BlackForest
+    url : https://github.com/SummerFields/official/blob/gh-pages/version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : /public/pack/pack_ImLeeRii_mini.png
 
 - version : 1.8.X
   name : SummerFields
@@ -23,8 +59,12 @@
   perso :
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
-    url : version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
-    img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
+    url : /public/custom/blackForestCake/custom_blackForestCake_byTobyplowy.zip
+    img : /public/custom/blackForestCake/pack_blackForest_mini.png
+  - name : Black Forest Cake by tobyplowy
+    short : BlackForest
+    url : https://github.com/SummerFields/official/blob/gh-pages/version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : /public/pack/pack_ImLeeRii_mini.png
 
 - version : 1.7.X
   name : SummerFields
