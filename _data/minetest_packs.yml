@@ -1,0 +1,85 @@
+- version : 0.4.14
+  name : Minetest
+  image : http://summerfields.info/public/pack/pack_minetest.png
+  base :
+  - percent : 99
+    url : version/minetest/minetest_game_0.4.11.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : http://www.minetest.net/
+  mod :
+  - name : 3d Armor AND Shields
+    percent : 100
+    short : 3dA
+    url : version/minetest/3d_armor.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=11&t=4654
+  - name : Locked Furnace
+    percent : 100
+    short : LF
+    url : version/minetest/locked_furnace.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?id=2779
+  - name : Carts Boost Cart AND Carts Plus
+    percent : 100
+    short : CaBC
+    url : version/minetest/boost_cart_carts.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=11&t=2451&hilit=boost_cart
+  - name : Connected Chests
+    percent : 100
+    short : CC
+    url : version/minetest/connected_chests.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=9&t=10264#p156571
+  - name : Creatures
+    percent : 95
+    short : C
+    url : version/minetest/creatures.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=11&t=8638&hilit=Creatures
+  - name : Diamond
+    percent : 100
+    short : D
+    url : version/minetest/diamond.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+  - name : Fake fire
+    percent : 100
+    short : FF
+    url : version/minetest/fake_fire.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=9&t=10011&hilit=Fake+fire
+  - name : Homedecor
+    percent : 0.01
+    short : HD
+    url : version/minetest/homedecor.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=11&t=2041&hilit=homedecor
+  - name : Mapgen
+    percent : 100
+    short : MG
+    url : version/minetest/mg.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=9&t=7263
+  - name : Moreores
+    percent : 100
+    short : MO
+    url : version/minetest/moreores.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=13&t=549
+  - name : Nether
+    percent : 100
+    short : Ntr
+    url : version/minetest/nether.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=11&t=5790&hilit=Nether
+  - name : Quartz
+    percent : 100
+    short : Qrz
+    url : version/minetest/quartz.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png
+    link : https://forum.minetest.net/viewtopic.php?f=11&t=5682&hilit=quartz
+  - name : XRay
+    percent : 100
+    short : XR
+    url : version/minetest/xray_stone.png.zip
+    img : https://raw.githubusercontent.com/SummerFields/Minetest/master/screenshot.png

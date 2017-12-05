@@ -1,7 +1,17 @@
 ---
-layout: category
+layout: default
 title: Minetest
-category: minetest
 ---
 
-## Minetest
+<h2>Minetest</h2>
+
+<div class="post-content">
+  {% for pack in site.data.minetest_packs %}
+      <a href="{{ site.url }}minetest_packs.html#{{ pack.name }}_{{ pack.version }}">
+        <figure>
+          <img alt="" src="{{ pack.image }}">
+          <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
+        </figure>
+      </a>
+  {% endfor %}
+</div>

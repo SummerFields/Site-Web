@@ -1,27 +1,17 @@
 ---
-layout: category
+layout: default
 title: Minecraft
-category: minecraft
 ---
 
-## Minecraft
+<h2>Minecraft</h2>
 
-{% for pack in site.data.packs %}
-
-<div>
-  
-  <div class="pack-image">
-    <img alt="" src="{{ pack.img }}">
-  </div>
-
-  <h4 class="pack-title">{{ pack.name }} {{ pack.version }} ({{ pack.percent }}%)</h4>
-
-  <div class="pack-content">
-    <p>
-      <a href="{{ pack.url }}" title="Download {{ pack.name }}"><span>↓</span></a>
-    </p>
-  </div>
-
+<div class="post-content">
+  {% for pack in site.data.minecraft_packs %}
+      <a href="{{ site.url }}minecraft_packs.html#{{ pack.name }}_{{ pack.version }}">
+        <figure>
+          <img alt="" src="{{ pack.image }}">
+          <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
+        </figure>
+      </a>
+  {% endfor %}
 </div>
-
-{% endfor %}

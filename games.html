@@ -5,17 +5,18 @@ title: Games
 
 <h2>{{ page.title }}</h2>
 
+
 <div class="post-content">
-  <a href="{{ site.url }}category/minecraft.html">
+  
+{% for game in site.data.games %}
+
+  <a href="{{ site.url }}{{ game.url }}">
     <figure>
-      <img alt="Minecraft" class="media" src="{{ site.url }}assets/img/pack_minecraft.png">
-      <figcaption>Minecraft</figcaption>
+      <img alt="{{ game.title }}" class="media" src="{{ site.url }}{{ game.image }}">
+      <figcaption>{{ game.title }}</figcaption>
     </figure>
   </a>
-  <a href="{{ site.url }}category/minetest.html">
-    <figure>
-      <img alt="Minetest" class="media" src="{{ site.url }}assets/img/pack_minetest.png">
-      <figcaption>Minetest</figcaption>
-    </figure>
-  </a>
+
+{% endfor %}
+  
 </div>

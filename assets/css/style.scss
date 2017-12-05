@@ -146,6 +146,7 @@ a.camo img {
 .idMinecraft .post-content {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .idGames figure,
@@ -156,6 +157,7 @@ a.camo img {
     box-shadow: 0 0 1em #fff;
     padding: 6px;
     display: flex;
+    margin-bottom: 3em;
 }
 
 .idGames .main-content img,
@@ -171,7 +173,85 @@ a.camo img {
     display: none;
 }
 
-.idMinetest .post-exerpt
+.idMinetest .packs,
+.idMinecraft .packs {
+    position: absolute;
+    background: black;
+    display: none;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.idPacks h3 {
+    font-family: Minecraft;
+    font-size: 2rem;
+    color: white;
+}
+.idPacks .pack-base,
+.idPacks .pack-custom,
+.idPacks .pack-mod {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0% 0%;
+    padding: 1rem;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.idPacks .pack-image {
+    width: 64px;
+    height: 64px;
+}
+.idPacks h4 {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin: 0 0 0 1em;
+}
+.idPacks .pack-version {
+    display: flex;
+    justify-content: space-around;
+}
+.idPacks .pack-column {
+    margin-top: unset;
+}
+.idPacks .pack-content {
+    flex-shrink: 0;
+    line-height: 0em;
+    position: relative;
+}
+.idPacks .pack-content::after {
+    content: "↓";
+    position: absolute;
+    font-size: 4em;
+    font-family: Minecraft;
+    right: -0.5em;
+    top: 0.9em;
+    color: black;
+    text-shadow: 0 0 7px #fff;
+}
+.idPacks .pack-content:hover::after {
+    right: 0.12em;
+    top: 0.7em;
+    transition: 1s all;
+}
+
+/* Signature */
+
+.idSignature dd {
+    text-align: left;
+    background: rgba(0, 0, 0, 0.49) none repeat scroll 0% 0%;
+    border: 1px solid rgba(255, 255, 255, 0.57);
+    padding: 0.3em 1em;
+    margin: 2em 0px;
+}
+
+.main-content code {
+    padding: 0;
+    background: transparent;
+    color: white;
+    font-size: 0.7em;
+    border-radius: 0;
+}
 
 /* Footer */
 
