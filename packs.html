@@ -15,18 +15,20 @@ title: Packs
       <div class="pack-column">
         <h3>Vanilla</h3>
         <div class="pack-base">
-          <img class="pack-image" alt="" src="{{ pack.base[0].img }}">
+          <a class="pack-content" href="{{ pack.base[0].url }}" title="Download {{ pack.base[0].name }}">
+            <img class="pack-image" alt="" src="{{ pack.base[0].img }}">
+          </a>
           <h4 class="pack-title">{{ pack.name }} {{ pack.version }} ({{ pack.base[0].percent }}%)</h4>
-          <a class="pack-content" href="{{ pack.base[0].url }}" title="Download {{ pack.base[0].name }}"><span>↓</span></a>
         </div>
 
         {% if pack.perso != null %}
           <h3>Custom</h3>
           {% for custom in pack.perso %}
             <div class="pack-custom">
-              <img class="pack-image" alt="" src="{{ custom.img }}">
+              <a class="pack-content" href="{{ custom.url }}" title="Download {{ custom.name }}">
+                <img class="pack-image" alt="" src="{{ custom.img }}">
+              </a>
               <h4 class="pack-title">{{ custom.name }} {{ pack.version }} ({{ custom.percent }}%)</h4>
-              <a class="pack-content" href="{{ custom.url }}" title="Download {{ custom.name }}"><span>↓</span></a>
             </div>
           {% endfor %}
         {% endif %}
@@ -37,9 +39,10 @@ title: Packs
           <h3>Mod support</h3>
           {% for mod in pack.mod %}
             <div class="pack-mod">
-              <img class="pack-image" alt="" src="{{ supmodport.img }}">
+              <a class="pack-content" href="{{ mod.url }}" title="Download {{ mod.name }}">
+                <img class="pack-image" alt="" src="{{ supmodport.img }}">
+              </a>
               <h4 class="pack-title">{{ mod.name }} {{ pack.version }} ({{ mod.percent }}%)</h4>
-              <a class="pack-content" href="{{ mod.url }}" title="Download {{ mod.name }}"><span>↓</span></a>
             </div>
           {% endfor %}
         {% endif %}
@@ -47,6 +50,7 @@ title: Packs
     </div> 
   {% endfor %}
   
+  <span>↓</span>
   
 <script charset="utf-8" type="text/javascript">
   for (let i of document.getElementsByClassName("pack-version"))
