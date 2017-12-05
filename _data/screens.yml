@@ -15,16 +15,16 @@
   - 16.min.jpg
 - name : armors
   files :
-  - .chainmail_item_m.png
-  - .chainmail_m.png
-  - .diamond_item_m.png
-  - .diamond_m.png
-  - .gold_item_m.png
-  - .gold_m.png
-  - .iron_item_m.png
-  - .iron_m.png
-  - .leather_item_m.png
-  - .leather_m.png
+  - chainmail_item.png
+  - chainmail.png
+  - diamond_item.png
+  - diamond.png
+  - gold_item.png
+  - gold.png
+  - iron_item.png
+  - iron.png
+  - leather_item.png
+  - leather.png
 - name : mob_passif
   files :
   - .bat_m.png
