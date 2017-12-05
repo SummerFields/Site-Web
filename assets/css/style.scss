@@ -284,7 +284,11 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider {position: relative;  zoom: 1; }
+.flexslider {
+    position: relative;
+    zoom: 1;
+    margin-bottom: 3em;
+}
 .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}
