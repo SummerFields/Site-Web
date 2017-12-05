@@ -35,11 +35,11 @@ title: Packs
       <div class="pack-column">
         {% if pack.mod != null %}
           <h3>Mod support</h3>
-          {% for support in pack.mod %}
+          {% for mod in pack.mod %}
             <div class="pack-mod">
-              <img class="pack-image" alt="" src="{{ support.img }}">
-              <h4 class="pack-title">{{ support.name }} {{ pack.version }} ({{ support.percent }}%)</h4>
-              <a class="pack-content" href="{{ support.url }}" title="Download {{ support.name }}"><span>↓</span></a>
+              <img class="pack-image" alt="" src="{{ supmodport.img }}">
+              <h4 class="pack-title">{{ mod.name }} {{ pack.version }} ({{ mod.percent }}%)</h4>
+              <a class="pack-content" href="{{ mod.url }}" title="Download {{ mod.name }}"><span>↓</span></a>
             </div>
           {% endfor %}
         {% endif %}
