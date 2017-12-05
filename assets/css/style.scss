@@ -214,6 +214,9 @@ a.camo img {
 .idPacks .pack-column {
     flex: 0.45;
 }
+.idPacks .pack-content {
+    flex-shrink: 0;
+}
 
 /* Footer */
 
