@@ -130,7 +130,7 @@
 
 - version : 1.6.X
   name : SummerFields
-  image : assets/packs/pack_1.7.X.png
+  image : assets/packs/pack_1.6.X.png
   base :
   - style : §6§l
     url : version/1.6.X/SummerField_1.6.4.zip
