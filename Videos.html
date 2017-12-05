@@ -1,0 +1,14 @@
+---
+layout: default
+title: Videos
+---
+
+<h2>Videos</h2>
+
+<div class="post-content">
+  {% for video in site.data.videos %}
+    <p style="text-align: center;">
+      <iframe class="video" src="{{ video }}" frameborder="0"></iframe>
+    </p>
+  {% endfor %}
+</div>
