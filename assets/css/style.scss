@@ -194,14 +194,18 @@ a.camo img {
     padding: 1rem;
     text-align: left;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .idPacks .pack-image {
     display: inline-block;
 }
 .idPacks h4 {
     display: inline-block;
+    color: white;
+    font-weight: bold;
 }
-.idPacks .pack-content a {
+.idPacks .pack-content {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -217,8 +221,12 @@ a.camo img {
     border-radius: 3px;
 }
 
-.idPacks .packs li {
-    list-style: none;
+.idPacks .pack-version {
+    display: flex;
+    justify-content: space-around;
+}
+.idPacks .pack-column {
+    flex: 0.45;
 }
 
 /* Footer */
