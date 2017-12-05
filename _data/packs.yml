@@ -16,10 +16,10 @@
     url : version/1.8.X/SummerFields-1.8.8.zip
     img : https://raw.githubusercontent.com/SummerFields/SummerFields/1.8/pack.png
   mod :
-  - name" : McPatcher
-    short" : McP
-    url" : version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip
-    img" : https://raw.githubusercontent.com/SummerFields/Mod-OptiFine-McPatcher/master/pack.png
+  - name : McPatcher
+    short : McP
+    url : version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip
+    img : https://raw.githubusercontent.com/SummerFields/Mod-OptiFine-McPatcher/master/pack.png
   perso :
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
