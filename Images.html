@@ -10,7 +10,7 @@ title: Images
     <div class="flexslider">
     <ul class="slides">
       {% for screen in folder %}
-          <li><img alt="{{ screen }}" class="media" src="{{ folder }}{{ screen }}"></li>
+          <li><img alt="{{ screen }}" class="media" src="{{ site.url }}assets/screens/{{ folder }}/{{ screen }}"></li>
       {% endfor %}
     </ul>
     </div>
