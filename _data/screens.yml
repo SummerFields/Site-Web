@@ -1,4 +1,5 @@
-- nice_render : 
+- name : nice_render
+  files :
   - 1.min.jpg
   - 2.min.jpg
   - 3.min.jpg
@@ -12,7 +13,8 @@
   - 14.min.jpg
   - 15.min.jpg
   - 16.min.jpg
-- armors :
+- name : armors
+  files :
   - .chainmail_item_m.png
   - .chainmail_m.png
   - .diamond_item_m.png
@@ -23,7 +25,8 @@
   - .iron_m.png
   - .leather_item_m.png
   - .leather_m.png
-- mob_passif :
+- name : mob_passif
+  files :
   - .bat_m.png
   - .cat_m.png
   - .chicken_m.png
@@ -44,7 +47,8 @@
   - .snowman_m.png
   - .squid_m.png
   - .villager_m.png
-- mobs :
+- name : mobs
+  files :
   - .Blaze_m.png
   - .chicken_jockey_m.png
   - .creeper_electro_m.png
@@ -73,7 +77,8 @@
   - .zombie_giant_m.png
   - .zombie_m.png
   - .zombie_villager_m.png
-- biomes :
+- name : biomes
+  files :
   - .Beach_m.png
   - .Birch_Forest_m.png
   - .Desert_m.png
