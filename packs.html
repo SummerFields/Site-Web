@@ -36,24 +36,6 @@ title: Packs
 
       <div class="pack-column">
         {% if pack.mod != null %}
-          <h3>Custom</h3>
-          {% for custom in pack.mod %}
-            <div class="pack-custom">
-              <a class="pack-content" href="{{ custom.url }}" title="Download {{ custom.name }}">
-                <img class="pack-image" alt="" src="{{ custom.img }}">
-              </a>
-              <h4 class="pack-title">{{ custom.name }} {{ pack.version }} ({{ custom.percent }}%)</h4>
-            </div>
-          {% endfor %}
-        {% endif %}
-      </div>
-    </div> 
-  {% endfor %}
-  
-  <span>↓</span>
-  
-  
-        {% if pack.mod != null %}
           <h3>Mod support</h3>
           {% for mod in pack.mod %}
             <div class="pack-mod">
@@ -64,6 +46,14 @@ title: Packs
             </div>
           {% endfor %}
         {% endif %}
+      </div>
+    </div> 
+  {% endfor %}
+  
+  <span>↓</span>
+  
+  
+
   
 <script charset="utf-8" type="text/javascript">
   for (let i of document.getElementsByClassName("pack-version"))
