@@ -9,7 +9,7 @@ title: Minetest
   {% for pack in site.data.minetest_packs %}
       <a href="{{ site.url }}minetest_packs.html#{{ pack.name }}_{{ pack.version }}">
         <figure>
-          <img alt="" src="{{ pack.image }}">
+          <img alt="" src="{{ site.url }}{{ pack.image }}">
           <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
         </figure>
       </a>
