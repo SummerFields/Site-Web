@@ -16,7 +16,7 @@ title: Packs
         <h3>Vanilla</h3>
         <div class="pack-base">
           <a class="pack-content" href="{{ pack.base[0].url }}" title="Download {{ pack.base[0].name }}">
-            <img class="pack-image" alt="" src="{{ site.url }}{{ pack.base[0].img }}">
+            <img class="pack-image" alt="" src="{{ pack.base[0].img }}">
           </a>
           <h4 class="pack-title">{{ pack.name }} {{ pack.version }}{% if pack.base[0].percent != null %} ({{ pack.base[0].percent }}%){% endif %}</h4>
         </div>
@@ -26,7 +26,7 @@ title: Packs
           {% for custom in pack.perso %}
             <div class="pack-custom">
               <a class="pack-content" href="{{ custom.url }}" title="Download {{ custom.name }}">
-                <img class="pack-image" alt="" src="{{ site.url }}{{ custom.img }}">
+                <img class="pack-image" alt="" src="{{ custom.img }}">
               </a>
               <h4 class="pack-title">{{ custom.name }} {{ pack.version }}{% if custom.percent != null %} ({{ custom.percent }}%){% endif %}</h4>
             </div>
@@ -40,7 +40,7 @@ title: Packs
           {% for mod in pack.mod %}
             <div class="pack-mod">
               <a class="pack-content" href="{{ mod.url }}" title="Download {{ mod.name }}">
-                <img class="pack-image" alt="" src="{{ site.url }}{{ mod.img }}">
+                <img class="pack-image" alt="" src="{{ mod.img }}">
               </a>
               <h4 class="pack-title">{{ mod.name }} {{ pack.version }}{% if mod.percent != null %} ({{ mod.percent }}%){% endif %}</h4>
             </div>
