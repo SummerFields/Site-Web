@@ -102,6 +102,9 @@
     url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.7.10-2/SummerFields_1.7.10.zip
     img : assets/packs/pack_1.7.X_mini.png
   mod :
+  - name : Balkon's Weapon
+    url : https://github.com/SummerFields/Mod-balkon/releases/download/1.7.10/Mod-Balkons-Weapon-SummerFields-1.7.10.zip
+    img : assets/packs/pack_weapon_mini.png
   - name : TerraFirmaCraft
     percent : 83
     short : TFC
