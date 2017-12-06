@@ -25,7 +25,7 @@ body.idSignature { background-image: url("../img/wool_colored_red.min.png"); }
     min-height: 19rem;
     background-position: center center;
     background-size: cover;
-    padding-top: 1px;
+    padding: 1px 0 0;
     box-shadow: 0px 0.5em 0.5em rgba(0, 0, 0, 0.67);
 }
 
@@ -51,12 +51,16 @@ h1.project-name span {
 .idHome .project-tagline {
     display: block;
     text-align: center;
-    margin: 2em auto 0px;
+    margin: 2em auto;
     background: rgba(0, 0, 0, 0.64) none repeat scroll 0% 0%;
     padding: 2rem;
     font-size: 83%;
     width: 37.2rem;
     opacity: 1;
+}
+
+.idHome .page-header {
+    min-height: 34rem;
 }
 
 a.camo img {
@@ -157,7 +161,7 @@ a.camo img {
     box-shadow: 0 0 1em #fff;
     padding: 6px;
     display: flex;
-    margin-bottom: 3em;
+    margin: 0 1em 3em;
 }
 
 .idGames .main-content img,
