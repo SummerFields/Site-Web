@@ -1,3 +1,21 @@
+- version : 1.12.X beta
+  name : SummerFields
+  image : assets/packs/pack_1.12.X.png
+  base :
+  - style : §6§l
+    percent : 90
+    img : assets/packs/pack_1.12.X_mini.png
+    url : https://github.com/SummerFields/SummerFields/releases/download/fp3-2b/SummerFields.fp3-2.1.11-1.12.zip
+  perso :
+  - name : SummerFields by ImLeeRii
+    short : ImLeeRii
+    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : assets/packs/pack_blackForest_mini.png
+  - name : Black Forest Cake by tobyplowy
+    short : BlackForest
+    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
+    img : assets/packs/pack_ImLeeRii_mini.png
+
 - version : 1.11.X
   name : SummerFields
   image : assets/packs/pack_1.11.X.png
@@ -6,6 +24,15 @@
     percent : 100
     img : assets/packs/pack_1.11.X_mini.png
     url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.11/SummerFields_1.11.zip
+  perso :
+  - name : SummerFields by ImLeeRii
+    short : ImLeeRii
+    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : assets/packs/pack_blackForest_mini.png
+  - name : Black Forest Cake by tobyplowy
+    short : BlackForest
+    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
+    img : assets/packs/pack_ImLeeRii_mini.png
   
 - version : 1.10.X
   name : SummerFields
@@ -18,11 +45,11 @@
   perso :
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
-    url : /public/custom/blackForestCake/custom_blackForestCake_byTobyplowy.zip
-    img : /public/custom/blackForestCake/pack_blackForest_mini.png
+    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : assets/packs/pack_blackForest_mini.png
   - name : Black Forest Cake by tobyplowy
     short : BlackForest
-    url : https://github.com/SummerFields/official/blob/gh-pages/version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
+    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
     img : assets/packs/pack_ImLeeRii_mini.png
 
 - version : 1.9.X
@@ -36,11 +63,11 @@
   perso :
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
-    url : /public/custom/blackForestCake/custom_blackForestCake_byTobyplowy.zip
-    img : assets/packs/pack_mini.png
+    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : assets/packs/pack_blackForest_mini.png
   - name : Black Forest Cake by tobyplowy
     short : BlackForest
-    url : https://github.com/SummerFields/official/blob/gh-pages/version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
+    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
     img : assets/packs/pack_ImLeeRii_mini.png
 
 - version : 1.8.X
@@ -49,21 +76,21 @@
   base :
   - style : §6§l
     percent : 100
-    url : version/1.8.X/SummerFields-1.8.8.zip
+    url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.8-b3/SummerFields-1.8.zip
     img : assets/packs/pack_1.8.X_mini.png
   mod :
   - name : McPatcher
     short : McP
-    url : version/1.8.X/Mod-OptiFine-McPatcher-1.8.zip
+    url : https://github.com/SummerFields/Mod_OptiFine_McPatcher/releases/download/1.8.8/Mod_OptiFine_McPatcher_1.8.8.zip
     img : assets/packs/pack_mcpatcher_mini.png
   perso :
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
-    url : /public/custom/blackForestCake/custom_blackForestCake_byTobyplowy.zip
+    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
     img : assets/packs/pack_blackForest_mini.png
   - name : Black Forest Cake by tobyplowy
     short : BlackForest
-    url : https://github.com/SummerFields/official/blob/gh-pages/version/1.8.X/SummerFields-by-ImLeeRii_1.8.1.zip
+    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
     img : assets/packs/pack_ImLeeRii_mini.png
 
 - version : 1.7.X
@@ -72,60 +99,56 @@
   base :
   - style : §6§l
     percent : 100
-    url : version/1.8.X/SummerFields-1.8.8.zip
+    url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.7.10-2/SummerFields_1.7.10.zip
     img : assets/packs/pack_1.7.X_mini.png
   mod :
-  - name : McPatcher
-    short : McP
-    url : version/1.7.X/SummerFields_mcpatcher_1.7.10.zip
-    img : assets/packs/pack_mcpatcher_mini.png
   - name : TerraFirmaCraft
     percent : 83
     short : TFC
     version : v8
-    url : version/1.7.X/Mod_TerraFirmaCraft_SummerFields_1.7.10-8.zip
+    url : https://github.com/SummerFields/Mod-TerraFirmaCraft/releases/download/untagged-b43a2e44e252bc789dd8/Mod_TerraFirmaCraft_SummerFields_1.7.10.zip
     img : assets/packs/pack_tfc_mini.png
     link : http://terrafirmacraft.com/index.html
   - name : Thaumcraft
     percent : 28
     short : TC
-    url : version/1.7.X/Thaumcraft-1.7.10_1.zip
+    url : https://github.com/SummerFields/Mod-Thaumcraft/releases/download/mc_1.7.X/Thaumcraft-1.7.10_1.zip
     img : assets/packs/pack_thaumcraft_mini.png
     link : http://thaumcraft-4.wikia.com/
   - name : Improving Minecraft
     short : IM
-    url : version/1.7.X/Mod-Improving-Minecraft_SummerFields_1.7.10.zip
+    url : https://github.com/SummerFields/Mod-Improving-Minecraft/releases/download/mc_1.7.10-1/Mod-Improving-Minecraft_SummerFields_1.7.10.zip
     img : assets/packs/pack_ImprovingMinecraft_mini.png
     link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294646-improving-minecraft-v1-6
   - name : Millenaire
     percent : 5
     short : Mill
-    url : version/1.7.X/millenaire.zip
+    url : https://github.com/SummerFields/Mod-Millenaire/releases/download/mc_1.7.X/millenaire.zip
     link : http://millenaire.org
   - name : Twilight Forest
     short : TF
-    url : version/1.7.X/Mod_Twilight_Forest_SummerFields_1.7.2.zip
+    url : https://github.com/SummerFields/Mod-Twilight-Forest/releases/download/mc_1.7.2/Mod_Twilight_Forest_SummerFields_1.7.2.zip
     img : assets/packs/pack_twilightforest_mini.png
     link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276258-the-twilight-forest-v2-3-3-snow-queen-troll
   - name : BiblioCraft
     percent : 20
     short : BBC
-    url : version/1.7.X/BiblioCraft.zip
+    url : https://github.com/SummerFields/Mod-Bibliocraft/releases/download/mc_1.7.X/BiblioCraft.zip
     link : http://www.bibliocraftmod.com/
   - name : Mystcraft
     percent : 7
     short : MyC
-    url : version/1.7.X/mystcraft.zip
+    url : https://github.com/SummerFields/Mod-Mystcraft/releases/download/mc_1.7.X/mystcraft.zip
     link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280070-mystcraft-0-11-0
   - name : Natura
     percent : 6
     short : N
-    url : version/1.7.X/natura.zip
+    url : https://github.com/SummerFields/Mod-Natura/releases/download/mc_1.7.X/natura.zip
     link : http://ftbwiki.org/Natura
   - name : Tinkers' Construct
     percent : 7
     short : TK
-    url : version/1.7.X/TConstruct.zip
+    url : https://github.com/SummerFields/Mod-Tinker-Construct/releases/download/mc_1.7.X/TConstruct.zip
     link : http://tinkers-construct.wikia.com/
 
 - version : 1.6.X
@@ -133,108 +156,110 @@
   image : assets/packs/pack_1.6.X.png
   base :
   - style : §6§l
-    url : version/1.6.X/SummerField_1.6.4.zip
+    url : https://github.com/SummerFields/SummerFields/releases/tag/v1.2
     img : assets/packs/pack_1.7.X_mini.png
   mod :
   - name : TerraFirmaCraft
     short : TFC
-    url : version/1.6.X/TerraFirmaCraft_1.6.4.zip
+    url : https://github.com/SummerFields/Mod-TerraFirmaCraft/releases/download/mc_1.6.4-4/Mod_TerraFirmaCraft_SummerFields_1.6.4.zip
     img : assets/packs/pack_tfc_mini.png
     link : http://terrafirmacraft.com/index.html
   - name : Applied_Energistics
     short : AE
-    url : version/1.6.X/Applied_Energistics.zip
+    url : https://github.com/SummerFields/Mod-Applied-Energistics/releases/download/mc_1.6.X/Applied_Energistics.zip
+    img : assets/packs/pack_FTB_mini.png
     link : http://ftbwiki.org/Applied_Energistics
   - name : BiblioCraft
     percent : 20
     short : BBC
-    url : version/1.6.X/bibliocraft.zip
+    url : https://github.com/SummerFields/Mod-Bibliocraft/releases/download/mc_1.6.X/bibliocraft.zip
     link : http://www.bibliocraftmod.com/
   - name : Biomes O' Plenty
     short : BOP
-    url : version/1.6.X/biomesoplenty.zip
+    url : https://github.com/SummerFields/Mod-Biomes-O-Plenty/releases/download/mc_1.6.X/biomesoplenty.zip
     link : http://biomesoplenty.wikia.com/wiki/Biomes_O%27_Plenty_Wiki
   - name : BuildCraft
     short : BC
-    url : version/1.6.X/buildcraft.zip
+    url : https://github.com/SummerFields/Mod-Buildcraft/releases/download/mc_1.6.X/buildcraft.zip
     link : http://www.mod-buildcraft.com/
   - name : DartCraft
     short : DC
-    url : version/1.6.X/dartcraft.zip
+    url : https://github.com/SummerFields/Mod-Dartcraft/releases/download/mc_1.6.X/dartcraft.zip
     link : http://ftbwiki.org/DartCraft
   - name : Extra Utilities
     short : EU
-    url : version/1.6.X/extrautils.zip
+    url : https://github.com/SummerFields/Mod-Extrautils/releases/download/mc_1.6.X/extrautils.zip
     link : http://ftbwiki.org/Extra_Utilities
   - name : Factorization
     short : FZ
-    url : version/1.6.X/factorization.zip
+    url : https://github.com/SummerFields/Mod-Factorization/releases/download/mc_1.6.X/factorization.zip
     link : http://feed-the-beast.wikia.com/wiki/Factorization
   - name : Forestry
     short : FO
-    url : version/1.6.X/forestry.zip
+    url : https://github.com/SummerFields/Mod-Forestry/releases/download/mc_1.6.X/forestry.zip
     link : http://forestry.sengir.net/
   - name : GeoStrata
     short : GS
-    url : version/1.6.X/geostrata.zip
+    url : https://github.com/SummerFields/Mod-Geostrata/releases/download/mc_1.6.X/geostrata.zip
     link : http://ftbwiki.org/GeoStrata
   - name : Industrial Craft
     short : IDC
-    url : version/1.6.X/ic2.zip
+    url : https://github.com/SummerFields/Mod-Industrial-Craft/releases/download/mc_1.6.X/ic2.zip
     link : http://wiki.industrial-craft.net/
   - name : Iron chests
     short : IC
-    url : version/1.6.X/ironchest.zip
+    url : https://github.com/SummerFields/Mod-Ironchest/releases/download/mc_1.6.X/ironchest.zip
     link : http://ftbwiki.org/Iron_Chest
   - name : Magical Crops
     short : MC
-    url : version/1.6.X/magicalcrops.zip
+    url : https://github.com/SummerFields/Mod-Magicalcrops/releases/download/mc_1.6.X/magicalcrops.zip
     link : http://ftbwiki.org/Magical_Crops
   - name : Mekanism
     short : M
-    url : version/1.6.X/mekanism.zip
+    url : https://github.com/SummerFields/Mod-Mekanism/releases/download/mc_1.6.X/mekanism.zip
     link : http://wiki.aidancbrady.com/
   - name : Modular Force Field System
     short : MFFS
-    url : version/1.6.X/mffs.zip
+    url : https://github.com/SummerFields/Mod-mffs/releases/download/mc_1.6.X/mffs.zip
     link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288023-1-6-4-modular-force-field-system-force-fields
   - name : MineFactory Reloaded
     short : MFR
-    url : version/1.6.X/minefactoryreloaded.zip
+    url : https://github.com/SummerFields/Mod-MinefactoryReloaded/releases/download/mc_1.6.X/minefactoryreloaded.zip
     link : http://ftbwiki.org/MineFactory_Reloaded
   - name : Mystcraft
     percent : 7
     short : MyC
-    url : version/1.6.X/mystcraft.zip
+    url : https://github.com/SummerFields/Mod-Mystcraft/releases/download/mc_1.6.X/mystcraft.zip
     link : http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280070-mystcraft-0-11-0
   - name : Natura
     percent : 6
     short : N
-    url : version/1.6.X/natura.zip
+    url : https://github.com/SummerFields/Mod-Natura/releases/download/mc_1.6.X/natura.zip
     link : http://ftbwiki.org/Natura
   - name : Nether Ores
     short : NO
-    url : version/1.6.X/netherores.zip
+    url : https://github.com/SummerFields/Mod-NetherOres/releases/download/mc_1.6.X/netherores.zip
     link : http://teamcofh.com/nether-ores/
   - name : Project Red
     short : PR
-    url : version/1.6.X/projectred.zip
+    url : https://github.com/SummerFields/Mod-Projectred/releases/download/mc_1.6.X/projectred.zip
     link : http://projectredwiki.com/
   - name : Railcraft
     short : RC
-    url : version/1.6.X/railcraft.zip
+    url : https://github.com/SummerFields/Mod-Railcraft/releases/download/mc_1.6.X/railcraft.zip
     link : http://www.railcraft.info/
   - name : Thaumcraft
     short : TC
-    url : version/1.6.X/thaumcraft.zip
+    url : https://github.com/SummerFields/Mod-Thaumcraft/releases/download/mc_1.6.X/thaumcraft.zip
+    img : assets/packs/pack_thaumcraft_mini.png
     link : http://thaumcraft-4.wikia.com/
   - name : Thermal Expansion
     short : TE
-    url : version/1.6.X/thermalexpansion.zip
+    url : https://github.com/SummerFields/Mod-Thermal-Expansion/releases/download/mc_1.6.X/thermalexpansion.zip
     link : http://ftbwiki.org/Thermal_Expansion_3
   - name : Tinkers' Construct
     percent : 7
     short : TK
-    url : version/1.6.X/tinker.zip
+    url : https://github.com/SummerFields/Mod-Tinker-Construct/releases/download/mc_1.6.X/TConstruct.zip
     link : http://tinkers-construct.wikia.com/
 
