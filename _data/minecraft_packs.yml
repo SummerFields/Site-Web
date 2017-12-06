@@ -83,6 +83,12 @@
     short : McP
     url : https://github.com/SummerFields/Mod_OptiFine_McPatcher/releases/download/1.8.8/Mod_OptiFine_McPatcher_1.8.8.zip
     img : assets/packs/pack_mcpatcher_mini.png
+  - name : MultipageChest
+    url : https://github.com/SummerFields/Mod-MultipageChest/releases/download/1.9.4/Mod_MultiPageChest-1.9.4.zip
+    img : assets/packs/pack_MultipageChest_mini.png
+  - name : Minestrappolation
+    url : https://github.com/SummerFields/Mod-Minestrappolation/releases/download/v1.8-beta.1/SummerFields_Minestrappolation_Support.zip
+    img : assets/packs/pack_minestrapolation_mini.png
   perso :
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
