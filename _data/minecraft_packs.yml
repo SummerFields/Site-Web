@@ -69,6 +69,10 @@
     short : BlackForest
     url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
     img : assets/packs/pack_ImLeeRii_mini.png
+  mod :
+  - name : MultipageChest
+    url : https://github.com/SummerFields/Mod-MultipageChest/releases/download/1.9.4/Mod_MultiPageChest-1.9.4.zip
+    img : assets/packs/pack_MultipageChest_mini.png
 
 - version : 1.8.X
   name : SummerFields
