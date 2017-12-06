@@ -8,6 +8,73 @@
     <meta name="theme-color" content="#bcc82b">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <script type="text/javascript" src="https://summerfields.github.io/official/assets/js/jquery.js"></script>
+    <script charset="utf-8" type="text/javascript">
+      $(window).load(function() {
+
+            //panorama
+            var largeur, hauteur, step = 0;
+            $( window ).resize(function() {
+              var padding = 0;//$('section').css( 'padding-top' ).split(/(\d+)px/)[1];
+              hauteur = $('.banner').height()+padding*2;
+              largeur = Math.floor(hauteur/0.8);
+
+              $('.banner').css({
+                backgroundPosition:
+                '0px top,'+
+                largeur+'px top,'+
+                (largeur*2)+'px top,'+
+                (largeur*3)+'px top'+
+                (largeur*4)+'px top,'+
+                (largeur*5)+'px top'+
+                (largeur*6)+'px top,'+
+                (largeur*7)+'px top',
+                backgroundSize:'auto '+hauteur+'px',
+                backgroundRepeat:'no-repeat'
+              });
+              if( hauteur < 768 )
+                $('.banner').css( 'background-image', 'url("{{ site.url }}assets/panorama/panorama2/480_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/480_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/480_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/480_4.min.jpg"),url("{{ site.url }}assets/panorama/panorama2/480_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/480_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/480_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2480_4.min.jpg")');
+              else if( hauteur < 976 )
+                $('.banner').css( 'background-image', 'url("{{ site.url }}assets/panorama/panorama2/768_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/768_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/768_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/768_4.min.jpg"),url("{{ site.url }}assets/panorama/panorama2/768_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/768_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/768_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2768_4.min.jpg")');
+              else
+                $('.banner').css( 'background-image', 'url("{{ site.url }}assets/panorama/panorama2/976_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_4.min.jpg"),url("{{ site.url }}assets/panorama/panorama2/976_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2976_4.min.jpg")');
+            });
+
+          $( window ).resize();
+
+            // animate
+            animate = function () {
+              if( hauteur < 976 ) {
+                step  = step-.5;
+                if( step < -largeur*4 ) step = 0;
+                var p1 = step;
+                var p2 = largeur+step;
+                var p3 = largeur*2+step;
+                var p4 = largeur*3+step;
+                var p5 = largeur*4+step;
+                var p6 = largeur*5+step;
+                var p7 = largeur*6+step;
+                var p8 = largeur*7+step;
+
+                if( p1 < -largeur ) p1 = largeur*4+step;
+                if( p2 < -largeur ) p2 = largeur*5+step;
+                if( p3 < -largeur ) p3 = largeur*6+step;
+                if( p4 < -largeur ) p4 = largeur*7+step;
+                if( p5 < -largeur ) p5 = largeur*8+step;
+                if( p6 < -largeur ) p6 = largeur*9+step;
+                if( p7 < -largeur ) p7 = largeur*10+step;
+                if( p8 < -largeur ) p8 = largeur*11+step;
+
+                $('.banner').css( 'backgroundPosition', p1+'px top,'+p2+'px top,'+p3+'px top,'+p4+'px top,'+p5+'px top,'+p6+'px top,'+p7+'px top,'+p8+'px top' );
+              } else
+              $('.banner').css( 'backgroundPosition', 'inherit' );
+
+              requestAnimationFrame( this.animate.bind(this) );
+            }
+            animate();
+      });
+    </script>
+    
   </head>
   <body class="id{{ page.title | uri_escape }}">
     <section class="page-header">
