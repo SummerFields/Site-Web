@@ -10,11 +10,14 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
     <script type="text/javascript" src="{{ site.url }}assets/js/jquery.js"></script>
     <script charset="utf-8" type="text/javascript">
+        console.log("one");
       $(window).load(function() {
 
+        console.log("two");
             //panorama
             var largeur, hauteur, step = 0;
             $( window ).resize(function() {
+        console.log("5");
               var padding = 0;//$('section').css( 'padding-top' ).split(/(\d+)px/)[1];
               hauteur = $('.banner').height()+padding*2;
               largeur = Math.floor(hauteur/0.8);
@@ -39,8 +42,10 @@
               else
                 $('.banner').css( 'background-image', 'url("{{ site.url }}assets/panorama/panorama2/976_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_4.min.jpg"),url("{{ site.url }}assets/panorama/panorama2/976_1.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_2.min.jpg"), url("{{ site.url }}assets/panorama/panorama2/976_3.min.jpg"), url("{{ site.url }}assets/panorama/panorama2976_4.min.jpg")');
             });
+        console.log("3");
 
           $( window ).resize();
+        console.log("4");
 
             // animate
             animate = function () {
