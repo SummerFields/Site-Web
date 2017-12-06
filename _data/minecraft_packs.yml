@@ -101,7 +101,19 @@
     percent : 100
     url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.7.10-2/SummerFields_1.7.10.zip
     img : assets/packs/pack_1.7.X_mini.png
+  perso :
+  - name : SummerFields by ImLeeRii
+    short : ImLeeRii
+    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
+    img : assets/packs/pack_blackForest_mini.png
+  - name : Black Forest Cake by tobyplowy
+    short : BlackForest
+    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
+    img : assets/packs/pack_ImLeeRii_mini.png
   mod :
+  - name : MultipageChest
+    url : https://github.com/SummerFields/Mod-MultipageChest/releases/download/1.9.4/Mod_MultiPageChest-1.9.4.zip
+    img : assets/packs/pack_MultipageChest_mini.png
   - name : Balkon's Weapon
     url : https://github.com/SummerFields/Mod-balkon/releases/download/1.7.10/Mod-Balkons-Weapon-SummerFields-1.7.10.zip
     img : assets/packs/pack_weapon_mini.png
@@ -160,7 +172,7 @@
   base :
   - style : §6§l
     url : https://github.com/SummerFields/SummerFields/releases/tag/v1.2
-    img : assets/packs/pack_1.7.X_mini.png
+    img : assets/packs/pack_1.6.X_mini.png
   mod :
   - name : TerraFirmaCraft
     short : TFC
