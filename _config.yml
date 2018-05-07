@@ -4,4 +4,6 @@ description: Welcome everyone! This is SummerFields, the marvelous texture pack 
 
 url: http://summerfields.info/
 
+plugins: ['jekyll-twitter-plugin']
+
 
