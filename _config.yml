@@ -1,9 +1,5 @@
 theme: jekyll-theme-cayman
 title: SUMMERFIELDS
-description: Welcome everyone! This is SummerFields, the marvelous texture pack     started by LithiumSound and now continued by the community.     Inspired by the 16x texture packs Jolicraft and GoodMorningCraft     and the game Fable - The Lost Chapters.
+description: SummerFields was one of the first very successful Resource Packs at the beginning of the story, even though we were still talking about Texture Packs.    Abandoned by its author, Lithiumsound, the users took over the torch, and since they keep the pack up to date.    SummerFields really brings a warm atmosphere to the game and will make your Minecraft landscape sublime, with or without shader, which is the strength of the pack for a resolution of 32 * 32. All textures are composed of very warm and pronounced colors, which helps to make SummerFields one of the most visually joyful and bucolic packs, it totally changes the atmosphere of Minecraft by plunging us into a quiet, peaceful world (with zombies ). All the blocks have been reviewed, offering us different versions of mobs, and very beautifuls armors.    The former author says he created this pack inspired by the game Fable, but also resources pack such as Jolicraft or GoodMorningCraft.
 
 url: http://summerfields.info/
-
-plugins: ['jekyll-twitter-plugin']
-
-
