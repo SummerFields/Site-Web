@@ -3,8 +3,27 @@ layout: default
 title: Home
 ---
 
-<a class="twitter-timeline" href="https://twitter.com/SummerFieldsMC?ref_src=twsrc%5Etfw">Tweets by SummerFieldsMC</a>
-<script async src="{{ site.url }}assets/js/platform.twitter.com_widgets.js" charset="utf-8"></script> 
+<script>fetch(
+  'https://api.rss2json.com/v1/api.json?rss_url=https://mstdn.io/users/SummerFields.atom'
+).then((res)=>{
+  return res.json();
+}).then((json)=>{
+  json.items.forEach(function(i){
+      //console.log(i);
+    
+      var content = $('<div class="post-content">'+i.content+'</div>');
+      var linkMast = $('<a href="'+i.link+'">comment on Mastodon</a>');
+      var linkTwit = $('<a href="https://twitter.com/SummerFieldsMC">comment on Twitter</a>');
+      var article = $('<article id="" class="post"/>');
+      article.append(content);
+      article.append(linkMast);
+      article.append(linkTwit);
+      $('body').append(article);
+  })
+});
+
+//# sourceURL=pen.js
+</script>
 
 {% for post in site.posts %}
 <article id="" class="post">
