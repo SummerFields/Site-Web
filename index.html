@@ -24,7 +24,7 @@ title: Home
     })
   });*/
   
-  $.get("https://mstdn.io/users/SummerFields.atom", function(data) {
+  /*$.get("https://mstdn.io/users/SummerFields.atom", function(data) {
     var $XML = $(data);
     $XML.find("item").each(function() {
         var $this = $(this),
@@ -38,7 +38,21 @@ title: Home
         console.log($this);
         $('.main-content').append($('<h2/>').text(item.title));
         //etc...
-    });
+    });*/
+    
+    
+    var url= 'https://mstdn.io/users/SummerFields.atom';
+        $.ajax({
+            url: url,
+            crossOrigin: true,
+            type: 'GET',
+            xhrFields: { withCredentials: true },
+            accept: 'application/json'
+        }).done(function (data) {
+            console.log(data);                
+        }).fail(function (xhr, textStatus, error) {
+            console.log(error);   
+        });
 });
 
 </script>
