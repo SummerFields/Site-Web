@@ -3,57 +3,15 @@ layout: default
 title: Home
 ---
 
-<script>
-  
-  /*fetch(
-    'https://api.rss2json.com/v1/api.json?rss_url=https://mstdn.io/users/SummerFields.atom'
-  ).then((res)=>{
-    return res.json();
-  }).then((json)=>{
-    json.items.forEach(function(i){
-        //console.log(i);
-
-        var content = $('<div class="post-content">'+i.content+'</div>');
-        var linkMast = $('<a href="'+i.link+'">comment on Mastodon</a>');
-        var linkTwit = $('<a href="https://twitter.com/SummerFieldsMC">comment on Twitter</a>');
-        var article = $('<article id="" class="post"/>');
-        content.append(linkMast);
-        content.append(linkTwit);
-        article.append(content);
-        $('.main-content').append(article);
-    })
-  });*/
-  
-  /*$.get("https://mstdn.io/users/SummerFields.atom", function(data) {
-    var $XML = $(data);
-    $XML.find("item").each(function() {
-        var $this = $(this),
-            item = {
-                title:       $this.find("title").text(),
-                link:        $this.find("link").text(),
-                description: $this.find("description").text(),
-                pubDate:     $this.find("pubDate").text(),
-                author:      $this.find("author").text()
-            };
-        console.log($this);
-        $('.main-content').append($('<h2/>').text(item.title));
-        //etc...
-    });
-});*/
-    
-    
-    var url= 'https://mstdn.io/users/SummerFields.atom';
-        $.ajax({
-            url: url,
-            crossOrigin: true,
-            type: 'GET',
-            dataType: "jsonp",
-            xhrFields: { withCredentials: true },
-            accept: 'application/json'
-        }).done(function (data) {
-            console.log(data);
-        }).fail(function (xhr, textStatus, error) {
-            console.log(error);
+<div id="divRss"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/FeedEk.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#divRss').FeedEk({
+            FeedUrl: 'https://mstdn.io/users/SummerFields.atom',
+            MaxCount: 10,
+            Layout: ['#Desc','#date','#link']
         });
-
+    });
 </script>
