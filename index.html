@@ -3,26 +3,27 @@ layout: default
 title: Home
 ---
 
-<script>fetch(
-  'https://api.rss2json.com/v1/api.json?rss_url=https://mstdn.io/users/SummerFields.atom'
-).then((res)=>{
-  return res.json();
-}).then((json)=>{
-  json.items.forEach(function(i){
-      //console.log(i);
-    
-      var content = $('<div class="post-content">'+i.content+'</div>');
-      var linkMast = $('<a href="'+i.link+'">comment on Mastodon</a>');
-      var linkTwit = $('<a href="https://twitter.com/SummerFieldsMC">comment on Twitter</a>');
-      var article = $('<article id="" class="post"/>');
-      article.append(content);
-      article.append(linkMast);
-      article.append(linkTwit);
-      $('#main-content').append(article);
-  })
-});
+<script>
+  
+  fetch(
+    'https://api.rss2json.com/v1/api.json?rss_url=https://mstdn.io/users/SummerFields.atom'
+  ).then((res)=>{
+    return res.json();
+  }).then((json)=>{
+    json.items.forEach(function(i){
+        //console.log(i);
 
-//# sourceURL=pen.js
+        var content = $('<div class="post-content">'+i.content+'</div>');
+        var linkMast = $('<a href="'+i.link+'">comment on Mastodon</a>');
+        var linkTwit = $('<a href="https://twitter.com/SummerFieldsMC">comment on Twitter</a>');
+        var article = $('<article id="" class="post"/>');
+        content.append(linkMast);
+        content.append(linkTwit);
+        article.append(content);
+        $('#main-content').prepend(article);
+    })
+  });
+
 </script>
 
 {% for post in site.posts %}
