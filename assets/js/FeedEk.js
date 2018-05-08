@@ -15,10 +15,7 @@
             LinkText: "See on the spot.",
             DateFormat: "",
             DateFormatLang:"en",
-            Layout: ['#titleLink','#date','#Desc'],
-            LayoutTitleLink: '<div class="itemTitle">#titleLink</div>',
-            LayoutDate: '<div class="itemDate">#date</div>',
-            LayoutDesc: '<div class="itemContent">#Desc</div>',
+            Layout: ['#titleLink','#date','#Desc']
         }, opt);
         
         var id = $(this).attr("id"), i, s = "", dt;
