@@ -38,7 +38,8 @@ title: Home
         console.log($this);
         $('.main-content').append($('<h2/>').text(item.title));
         //etc...
-    });*/
+    });
+});*/
     
     
     var url= 'https://mstdn.io/users/SummerFields.atom';
@@ -48,7 +49,10 @@ title: Home
             type: 'GET',
             xhrFields: { withCredentials: true },
             accept: 'application/json'
+        }).done(function (data) {
+            console.log(data);
+        }).fail(function (xhr, textStatus, error) {
+            console.log(error);
         });
-});
 
 </script>
