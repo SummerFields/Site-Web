@@ -47,6 +47,7 @@ title: Home
             url: url,
             crossOrigin: true,
             type: 'GET',
+            dataType: "jsonp",
             xhrFields: { withCredentials: true },
             accept: 'application/json'
         }).done(function (data) {
