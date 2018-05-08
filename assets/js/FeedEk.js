@@ -79,7 +79,7 @@
                                     if ( itm.channel.item.enclosure ) {
                                         switch (itm.channel.item.enclosure.type) {
                                             case "image/png" :
-                                            case "image/jepg" :
+                                            case "image/jpeg" :
                                                 s += '<img class="itemEnclosure" src="'+itm.channel.item.enclosure.url+'"/>';
                                         }
                                     }
