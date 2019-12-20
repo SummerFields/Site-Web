@@ -1,10 +1,10 @@
 - version : 1.14.X
   name : SummerFields
-  image : assets/packs/pack_1.14.X.png
+  image : assets/packs/pack_rp4.png
   base :
   - style : §6§l
     percent : 100
-    img : assets/packs/pack_1.14.X_mini.png
+    img : assets/packs/pack_rp4_mini.png
     url : https://github.com/SummerFields/SummerFields/releases/download/untagged-e9655c5d8763e855dc9a/SummerFields_rp4.zip
   
 - version : 1.13.X
