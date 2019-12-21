@@ -134,6 +134,14 @@ a.camo img {
     margin: 1em auto 1em;
 }
 
+.main-content span {
+    margin: 1em 1em 3em;
+    display: block;
+    text-align: center;
+    background: aliceblue;
+    color: black;
+}
+
 ul.feedEkList {
     padding: 0;
 }
@@ -166,7 +174,7 @@ ul.feedEkList li {
     box-shadow: 0 0 1em #fff;
     padding: 6px;
     display: flex;
-    margin: 0 1em 3em;
+    margin: 0 1em 1em;
 }
 
 .idGames .main-content img,
