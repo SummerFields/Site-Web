@@ -47,6 +47,7 @@
 - version : format_2
   name : SummerFields
   image : assets/packs/pack_rp2.png
+  mcv : 1.9.X - 1.10.X
   base :
   - style : §6§l
     percent : 100
