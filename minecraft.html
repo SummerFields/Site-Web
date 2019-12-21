@@ -10,8 +10,9 @@ title: Minecraft
       <a href="{{ site.url }}minecraft_packs.html#{{ pack.name }}_{{ pack.version }}">
         <figure>
           <img alt="" src="{{ site.url }}{{ pack.image }}">
-          <figcaption>{{ pack.name }} {{ pack.version.version }}</figcaption>
+          <figcaption>{{ pack.name }} {{ pack.version }}</figcaption>
         </figure>
+        <span>{{ pack.mcv }}</span>
       </a>
   {% endfor %}
 </div>
