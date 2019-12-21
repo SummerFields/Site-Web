@@ -1,4 +1,4 @@
-- version : format 4
+- version : format_4
   name : SummerFields
   image : assets/packs/pack_rp4.png
   mcv : 1.13.X - 1.14.X
@@ -7,15 +7,6 @@
     percent : 100
     img : assets/packs/pack_rp4_mini.png
     url : https://github.com/SummerFields/SummerFields/releases/download/untagged-e9655c5d8763e855dc9a/SummerFields_rp4.zip
-  
-- version : 1.13.X
-  name : SummerFields
-  image : assets/packs/pack_1.13.X.png
-  base :
-  - style : §6§l
-    percent : 100
-    img : assets/packs/pack_1.13.X_mini.png
-    url : https://github.com/SummerFields/SummerFields/blob/rp4/SummerFields_rp4.zip?raw=true
 
 - version : 1.12.X
   name : SummerFields
@@ -93,7 +84,7 @@
     url : https://github.com/SummerFields/Mod-MultipageChest/releases/download/1.9.4/Mod_MultiPageChest-1.9.4.zip
     img : assets/packs/pack_MultipageChest_mini.png
 
-- version : format 1
+- version : format_1
   name : SummerFields
   image : assets/packs/pack_rp1.png
   mcv : 1.6.X - 1.7.X - 1.8.X
