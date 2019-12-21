@@ -43,33 +43,15 @@
     short : BlackForest
     url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
     img : assets/packs/pack_ImLeeRii_mini.png
-  
-- version : 1.10.X
-  name : SummerFields
-  image : assets/packs/pack_1.10.X.png
-  base :
-  - style : §6§l
-    percent : 100
-    url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.10/SummerFields_1.10.zip
-    img : assets/packs/pack_1.10.X_mini.png
-  perso :
-  - name : SummerFields by ImLeeRii
-    short : ImLeeRii
-    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
-    img : assets/packs/pack_blackForest_mini.png
-  - name : Black Forest Cake by tobyplowy
-    short : BlackForest
-    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
-    img : assets/packs/pack_ImLeeRii_mini.png
 
-- version : 1.9.X
+- version : format_2
   name : SummerFields
-  image : assets/packs/pack_1.9.X.png
+  image : assets/packs/pack_rp2.png
   base :
   - style : §6§l
     percent : 100
-    url : https://github.com/SummerFields/SummerFields/releases/download/mc_1.9/SummerFields_1.9.zip
-    img : assets/packs/pack_1.9.X_mini.png
+    url : https://github.com/SummerFields/SummerFields/releases/download/rp2/SummerFields_rp2.zip
+    img : assets/packs/pack_rp2_mini.png
   perso :
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
@@ -93,14 +75,6 @@
     url : https://github.com/SummerFields/SummerFields/releases/download/rp1/SummerFields_rp1.zip
     img : assets/packs/pack_rp1_mini.png
   perso :
-  - name : SummerFields by ImLeeRii
-    short : ImLeeRii
-    url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
-    img : assets/packs/pack_blackForest_mini.png
-  - name : Black Forest Cake by tobyplowy
-    short : BlackForest
-    url : assets/special_packs/custom_blackForestCake_byTobyplowy.zip
-    img : assets/packs/pack_ImLeeRii_mini.png
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
     url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
