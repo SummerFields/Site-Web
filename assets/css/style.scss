@@ -134,14 +134,6 @@ a.camo img {
     margin: 1em auto 1em;
 }
 
-.main-content span {
-    margin: 1em 1em 3em;
-    display: block;
-    text-align: center;
-    background: aliceblue;
-    color: black;
-}
-
 ul.feedEkList {
     padding: 0;
 }
@@ -197,6 +189,14 @@ ul.feedEkList li {
     display: none;
     width: 100%;
     margin-bottom: 3em;
+}
+
+.main-content span {
+    margin: 1em 1em 3em;
+    display: block;
+    text-align: center;
+    background: aliceblue;
+    color: black;
 }
 
 .idPacks h3 {
