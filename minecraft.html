@@ -7,6 +7,7 @@ title: Minecraft
 
 <div class="post-content">
   {% for pack in site.data.minecraft_packs %}
+    <div>
       <a href="{{ site.url }}minecraft_packs.html#{{ pack.name }}_{{ pack.version }}">
         <figure>
           <img alt="" src="{{ site.url }}{{ pack.image }}">
@@ -19,5 +20,6 @@ title: Minecraft
             fast download
           </a>
       {% endfor %}
+    </div>
   {% endfor %}
 </div>
