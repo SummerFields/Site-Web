@@ -192,11 +192,18 @@ ul.feedEkList li {
 }
 
 .main-content span {
-    margin: 1em 1em 3em;
+    margin: 1em 1em 0;
     display: block;
     text-align: center;
     background: aliceblue;
     color: black;
+}
+
+.fastDownload {
+    margin: 0em 1em 3em;
+    display: block;
+    text-align: center;
+    background: aliceblue;
 }
 
 .idPacks h3 {
