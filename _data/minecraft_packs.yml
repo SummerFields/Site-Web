@@ -1,21 +1,21 @@
 - version : format_5.2
   name : SummerFields
-  image : assets/packs/pack_rp5.png
+  image : assets/packs/pack_1.16.X.png
   mcv : 1.16.X Bêta
   base :
   - style : §6§l
     percent : 80
-    img : assets/packs/pack_rp5_mini.png
+    img : assets/packs/pack_1.16.X_mini.png
     url : https://github.com/SummerFields/SummerFields/archive/master.zip
     
 - version : format_5.1
   name : SummerFields
-  image : assets/packs/pack_rp5.png
+  image : assets/packs/pack_1.15.X.png
   mcv : 1.15.X
   base :
   - style : §6§l
     percent : 80
-    img : assets/packs/pack_rp5_mini.png
+    img : assets/packs/pack_1.15.X_mini.png
     url : https://github.com/SummerFields/SummerFields-Format-pack-5__1.15/archive/master.zip
     
 - version : format_4
