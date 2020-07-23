@@ -7,6 +7,11 @@
     percent : 80
     img : assets/packs/pack_1.16.X_mini.png
     url : https://github.com/SummerFields/SummerFields/archive/master.zip
+  perso :
+  - name : Addon Glazed Terracotta by Chengzzi89
+    short : Glazed Terracotta
+    url : https://github.com/SummerFields/Add-on-Glazed-Terracotta-By-Chengzzi89/archive/v0.1.zip
+    img : assets/packs/pack_glazed_terracotta_chengzzi89_mini.png
     
 - version : format_5.1
   name : SummerFields
@@ -17,6 +22,11 @@
     percent : 80
     img : assets/packs/pack_1.15.X_mini.png
     url : https://github.com/SummerFields/SummerFields-Format-pack-5__1.15/archive/master.zip
+  perso :
+  - name : Addon Glazed Terracotta by Chengzzi89
+    short : Glazed Terracotta
+    url : https://github.com/SummerFields/Add-on-Glazed-Terracotta-By-Chengzzi89/archive/v0.1.zip
+    img : assets/packs/pack_glazed_terracotta_chengzzi89_mini.png
     
 - version : format_4
   name : SummerFields
@@ -27,6 +37,11 @@
     percent : 100
     img : assets/packs/pack_rp4_mini.png
     url : https://github.com/SummerFields/SummerFields-Format-pack-4__1.13-1.14/archive/master.zip
+  perso :
+  - name : Addon Glazed Terracotta by Chengzzi89
+    short : Glazed Terracotta
+    url : https://github.com/SummerFields/Add-on-Glazed-Terracotta-By-Chengzzi89/archive/v0.1.zip
+    img : assets/packs/pack_glazed_terracotta_chengzzi89_mini.png
 
 - version : format_3
   name : SummerFields
@@ -38,6 +53,10 @@
     img : assets/packs/pack_rp3_mini.png
     url : https://github.com/SummerFields/SummerFields-Format-pack-3__1.11-1.12/archive/master.zip
   perso :
+  - name : Addon Glazed Terracotta by Chengzzi89
+    short : Glazed Terracotta
+    url : https://github.com/SummerFields/Add-on-Glazed-Terracotta-By-Chengzzi89/archive/v0.1.zip
+    img : assets/packs/pack_glazed_terracotta_chengzzi89_mini.png
   - name : SummerFields by ImLeeRii
     short : ImLeeRii
     url : assets/special_packs/SummerFields-by-ImLeeRii_1.8.1.zip
