@@ -1,11 +1,11 @@
-- version : format_5.2
+- version : format_7
   name : SummerFields
-  image : assets/packs/pack_1.16.X.png
-  mcv : 1.16.X Bêta
+  image : assets/packs/pack_1.17.X.png
+  mcv : 1.17.X Bêta
   base :
   - style : §6§l
-    percent : 80
-    img : assets/packs/pack_1.16.X_mini.png
+    percent : x
+    img : assets/packs/pack_1.17.X_mini.png
     url : https://github.com/SummerFields/SummerFields/archive/master.zip
   perso :
   - name : Addon Glazed Terracotta by Chengzzi89
@@ -13,7 +13,22 @@
     url : https://github.com/SummerFields/Add-on-Glazed-Terracotta-By-Chengzzi89/archive/v0.1.zip
     img : assets/packs/pack_glazed_terracotta_chengzzi89_mini.png
     
-- version : format_5.1
+- version : format_6
+  name : SummerFields
+  image : assets/packs/pack_1.16.X.png
+  mcv : 1.16.X
+  base :
+  - style : §6§l
+    percent : 80
+    img : assets/packs/pack_1.16.X_mini.png
+    url : https://github.com/SummerFields/SummerFields-Format-pack-6__1.16/blob/master/SummerFields-Format-pack-6__1.16.zip?raw=true
+  perso :
+  - name : Addon Glazed Terracotta by Chengzzi89
+    short : Glazed Terracotta
+    url : https://github.com/SummerFields/Add-on-Glazed-Terracotta-By-Chengzzi89/archive/v0.1.zip
+    img : assets/packs/pack_glazed_terracotta_chengzzi89_mini.png
+    
+- version : format_5
   name : SummerFields
   image : assets/packs/pack_1.15.X.png
   mcv : 1.15.X
