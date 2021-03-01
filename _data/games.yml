@@ -1,6 +1,6 @@
 - title : Minecraft
   image : assets/packs/pack_minecraft.png
-  url : minecraft.html
+  url : {{ site.url }}minecraft.html
 
 - title : Bedrock
   image : assets/packs/pack_mcpe.png
@@ -8,4 +8,4 @@
 
 - title : Minetest
   image : assets/packs/pack_minetest.png
-  url : minetest.html
+  url : {{ site.url }}minetest.html
