@@ -2,6 +2,10 @@
   image : assets/packs/pack_minecraft.png
   url : minecraft.html
 
+- title : Bedrock
+  image : assets/packs/pack_mcpe.png
+  url : https://github.com/SummerFields/MCPE/archive/master.zip
+
 - title : Minetest
   image : assets/packs/pack_minetest.png
   url : minetest.html
