@@ -1,11 +1,11 @@
 - version : format_7
   name : SummerFields
-  image : assets/packs/pack_1.17.X.png
+  image : assets/packs/pack_beta.png
   mcv : 1.17.X Bêta
   base :
   - style : §6§l
     percent : x
-    img : assets/packs/pack_1.17.X_mini.png
+    img : assets/packs/pack_beta_mini.png
     url : https://github.com/SummerFields/SummerFields/archive/master.zip
   perso :
   - name : Addon Glazed Terracotta by Chengzzi89
