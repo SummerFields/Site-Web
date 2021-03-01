@@ -10,7 +10,7 @@ title: Games
   
 {% for game in site.data.games %}
 
-  <a href="{{ site.url }}{{ game.url }}">
+  <a href="{{ game.url }}">
     <figure>
       <img alt="{{ game.title }}" class="media" src="{{ site.url }}{{ game.image }}">
       <figcaption>{{ game.title }}</figcaption>
