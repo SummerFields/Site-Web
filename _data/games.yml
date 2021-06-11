@@ -1,11 +1,11 @@
-- title : Minecraft
-  image : assets/packs/pack_minecraft.png
-  url : {{ site.url }}minecraft.html
+- title: Minecraft
+  image: assets/packs/pack_minecraft.png
+  url: {{ site.url }}minecraft.html
 
-- title : Bedrock
-  image : assets/packs/pack_mcpe.png
-  url : https://github.com/SummerFields/MCPE/archive/master.zip
+- title: Bedrock
+  image: assets/packs/pack_mcpe.png
+  url: https://github.com/SummerFields/MCPE/archive/master.zip
 
-- title : Minetest
-  image : assets/packs/pack_minetest.png
-  url : {{ site.url }}minetest.html
+- title: Minetest
+  image: assets/packs/pack_minetest.png
+  url: {{ site.url }}minetest.html
