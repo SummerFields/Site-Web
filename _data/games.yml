@@ -1,6 +1,6 @@
 - title: Minecraft
   image: assets/packs/pack_minecraft.png
-  url: {{ site.url }}minecraft.html
+  url: http://summerfields.info/minecraft.html
 
 - title: Bedrock
   image: assets/packs/pack_mcpe.png
@@ -8,4 +8,4 @@
 
 - title: Minetest
   image: assets/packs/pack_minetest.png
-  url: {{ site.url }}minetest.html
+  url: http://summerfields.info/minetest.html
